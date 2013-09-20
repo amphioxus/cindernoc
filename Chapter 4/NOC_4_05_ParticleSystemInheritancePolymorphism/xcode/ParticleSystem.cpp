@@ -12,11 +12,20 @@ using namespace ci;
 
 ParticleSystem::ParticleSystem( ci::Vec2f origin ) {
     mOrigin = origin;
+//    addParticle();
     
 }
 
 void ParticleSystem::addParticle() {
-    mParticles.push_back( new Particle( mOrigin ) );
+    float r = randFloat();
+//    mParticles.push_back( new Confetti (mOrigin) );
+    
+    if (r < 0.5) {
+        mParticles.push_back( new Particle( mOrigin ) );
+    } else {
+        mParticles.push_back( new Confetti (mOrigin) );
+    }
+    
 }
 
 

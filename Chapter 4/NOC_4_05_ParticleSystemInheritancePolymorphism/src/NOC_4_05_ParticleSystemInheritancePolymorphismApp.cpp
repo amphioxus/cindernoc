@@ -34,8 +34,8 @@ void NOC_4_05_ParticleSystemInheritancePolymorphismApp::mouseDown( MouseEvent ev
 void NOC_4_05_ParticleSystemInheritancePolymorphismApp::mouseMove( MouseEvent event ) {
     
     // gravity direction & magnitude depends on mouse position
-    mGravityForce.x = lmap<float>( event.getX(), 0, getWindowWidth(), -1.0, 1.0);
-    mGravityForce.y = lmap<float>( event.getY(), 0, getWindowHeight(), -1.0, 1.0);
+//    mGravityForce.x = lmap<float>( event.getX(), 0, getWindowWidth(), -1.0, 1.0);
+//    mGravityForce.y = lmap<float>( event.getY(), 0, getWindowHeight(), -1.0, 1.0);
 }
 
 void NOC_4_05_ParticleSystemInheritancePolymorphismApp::keyDown( KeyEvent event) {

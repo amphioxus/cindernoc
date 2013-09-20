@@ -6,9 +6,18 @@
 //
 //
 
-#ifndef __NOC_4_05_ParticleSystemInheritancePolymorphism__Confetti__
-#define __NOC_4_05_ParticleSystemInheritancePolymorphism__Confetti__
-
+#pragma once
 #include <iostream>
+#include "Particle.h"
+#include "cinder/CinderMath.h"
 
-#endif /* defined(__NOC_4_05_ParticleSystemInheritancePolymorphism__Confetti__) */
+class Confetti : public Particle {
+    
+public:
+    Confetti ( ci::Vec2f location );
+
+    ci::Rectf mRect;
+   
+    virtual void draw(); // draw is virtual method, different function for inherited classes
+    
+};

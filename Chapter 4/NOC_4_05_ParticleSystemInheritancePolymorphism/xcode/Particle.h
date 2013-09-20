@@ -10,7 +10,9 @@
 #include <iostream>
 #include "cinder/Rand.h"
 
-class Particle {
+class Particle {    
+public:
+    Particle( ci::Vec2f );
     
     float mLifeSpan;
     float mMass = 1;
@@ -18,14 +20,13 @@ class Particle {
     ci::Vec2f mVelocity;
     ci::Vec2f mAcceleration;
     
-public:
-    Particle( ci::Vec2f );
-    
     void applyForce( ci::Vec2f );
     bool isDead();
     void run();     // convenience method to update and draw
     void update();  // Method to update location
-    void draw();
     
+    virtual void draw();  // draw is virtual method, different function for inherited classes
+    
+    virtual ~Particle() {};
     
 };

@@ -9,7 +9,9 @@
 #pragma once
 #include <iostream>
 #include "cinder/app/AppBasic.h"
+#include "cinder/Rand.h"
 #include "Particle.h"
+#include "Confetti.h"
 
 class ParticleSystem {
     
@@ -18,7 +20,7 @@ class ParticleSystem {
 public:
     ParticleSystem( ci::Vec2f );
     
-    std::vector<Particle *> mParticles;
+    std::vector<Particle *> mParticles; // vector holding particles (and confetti child objects)
     
     void addParticle();
     void applyForce( ci::Vec2f );

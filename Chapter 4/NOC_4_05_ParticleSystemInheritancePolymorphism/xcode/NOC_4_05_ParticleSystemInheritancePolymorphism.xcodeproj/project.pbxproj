@@ -79,6 +79,7 @@
 				7A457389EB224E74902C020F /* NOC_4_05_ParticleSystemInheritancePolymorphismApp.cpp */,
 				C6B4BEBD17E6451A00D6D44A /* ParticleSystem.cpp */,
 				C6B4BEC017E6452600D6D44A /* Particle.cpp */,
+				C680915C17EC189F00AFD5FC /* Confetti.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -133,7 +134,6 @@
 			children = (
 				C6B4BEBE17E6451A00D6D44A /* ParticleSystem.h */,
 				C6B4BEC117E6452600D6D44A /* Particle.h */,
-				C680915C17EC189F00AFD5FC /* Confetti.cpp */,
 				C680915D17EC189F00AFD5FC /* Confetti.h */,
 				A6E94F5953C34D30872D76BB /* Resources.h */,
 				1DA0EC6FDA0740138F256A80 /* NOC_4_05_ParticleSystemInheritancePolymorphism_Prefix.pch */,
