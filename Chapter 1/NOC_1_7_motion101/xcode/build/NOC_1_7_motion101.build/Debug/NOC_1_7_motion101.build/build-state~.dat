@@ -1,0 +1,248 @@
+TNOC_1_7_motion101
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_1_7_motion101.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.pth NOC_1_7_motion101_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BB7BB600000000000000AA
+t1371241398
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000510CCF6400000000000024F0
+t1359794020
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005146122E0000000000024DD8
+t1363546670
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000005146122E00000000000060B4
+t1363546670
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000510CCF6400000000000001E5
+t1359794020
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000005146122E000000000000E9A8
+t1363546670
+s59816
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Developer/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Developer/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Developer/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../resources/CinderApp.icns
+c00000000521CDCD80000000000070375
+t1377623256
+s459637
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp
+c00000000521D136700000000000003A6
+t1377637223
+s934
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/MacOS/NOC_1_7_motion101
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101.LinkFileList
+c00000000521D16690000000000000145
+t1377637993
+s325
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp
+c00000000521D166200000000000002F7
+t1377637986
+s759
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/NOC_1_7_motion101_Prefix.pch
+c00000000521CDCD8000000000000012D
+t1377623256
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000501321460000000000006730
+t1343430982
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514617870000000000081CB0
+t1363548039
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051B23E1B000000000002DAD0
+t1370635803
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000051E0E97600000000004A2E10
+t1373694326
+s4861456
+
+N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000521CDCD80000000000000462
+t1377623256
+s1122
+
+CBuild AST from /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp
+r0
+
+CBuild AST from /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9eb5cbe94dcdb741^c77fede94dcdb741^---0#1#0#--18"Check dependencies36"40AFE454-5C83-4264-BAD6-DB3E62D75618-
+
+CCompileC ./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s399330801.703191
+e399330802.811330
+r0
+xCompileC
+x./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp:14:5: error: type 'ci::Vec2f' (aka 'Vec2<float>') does not provide a call operator
+o    location (50., 50.);
+o    ^~~~~~~~
+o/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp:40:1: error: extraneous closing brace ('}')
+o}
+o^
+o2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp732bb4f14dcdb741^60b0cff24dcdb741^-339"/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp:14:5: error: type 'ci::Vec2f' (aka 'Vec2<float>') does not provide a call operator    location (50., 50.);    ^~~~~~~~/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp:40:1: error: extraneous closing brace ('}')}^2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@69"Type 'ci::Vec2f' (aka 'Vec2<float>') does not provide a call operator-399330802#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp0000000000000000^13#4#13#4#132#0#14"Semantic Issue1(3@90"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp0000000000000000^13#4#13#12#132#0#-2@30"Extraneous closing brace ('}')-399330802#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp0000000000000000^39#0#39#0#627#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp0000000000000000^3264"CompileC ./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.o Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-generated-files.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-own-target-headers.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-all-target-headers.hmap -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-project-headers.hmap -iquote../../../../include -iquote../include -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/build/Debug/include -I../../../../boost -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/DerivedSources/i386 -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/DerivedSources -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/build/Debug -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch -MMD -MT dependencies -MF /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.d --serialize-diagnostics /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.dia -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Mover.cpp -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/Mover.o36"E354A0E4-F869-41AB-8888-20CADF0A9A20-
+
+CCompileC ./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s399330801.703180
+e399330803.720200
+r1
+xCompileC
+x./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp0a2cb4f14dcdb741^e55eb8f34dcdb741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp0000000000000000^3368"CompileC ./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.o ../src/NOC_1_7_motion101App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-generated-files.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-own-target-headers.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-all-target-headers.hmap -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-project-headers.hmap -iquote../../../../include -iquote../include -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/build/Debug/include -I../../../../boost -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/DerivedSources/i386 -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/DerivedSources -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/build/Debug -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch -MMD -MT dependencies -MF /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.d --serialize-diagnostics /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.dia -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../src/NOC_1_7_motion101App.cpp -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/Objects-normal/i386/NOC_1_7_motion101App.o36"7C267F4E-8E5D-4A6A-822E-FD9407CFB90B-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/NOC_1_7_motion101.app/Contents/Resources/CinderApp.icns
+s399330793.944431
+e399330793.961408
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/NOC_1_7_motion101.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy ./build/Debug/NOC_1_7_motion101.app/Contents/Resources/CinderApp.icns88d7f1e94dcdb741^5c1ff6e94dcdb741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Resources/CinderApp.icns000000000080d041^506"CpResource ../resources/CinderApp.icns ./build/Debug/NOC_1_7_motion101.app/Contents/Resources/CinderApp.icns    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/../resources/CinderApp.icns /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Resources36"1E156A96-B2B1-48D4-BB5D-BDBE433D8B59-
+
+CLd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/MacOS/NOC_1_7_motion101 normal i386
+r0
+
+CProcessInfoPlistFile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Info.plist Info.plist
+s399330793.932450
+e399330793.936218
+r1
+xProcessInfoPlistFile
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistd1c9eee94dcdb741^09c4efe94dcdb741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/Info.plist0000000000000000^492"ProcessInfoPlistFile ./build/Debug/NOC_1_7_motion101.app/Contents/Info.plist Info.plist    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app/Contents/Info.plist36"B8B0E9DD-201F-4F35-B3AC-8CBE202CC71F-
+
+CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_1_7_motion101-fopwxqjybfwwatbdijtasetxqfqu/Index/PrecompiledHeaders/NOC_1_7_motion101_Prefix-efukiezxtikbbqblhxgjmqeutvsj_ast/NOC_1_7_motion101_Prefix.pch.pth NOC_1_7_motion101_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.pth NOC_1_7_motion101_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s399330793.969874
+e399330801.695944
+r1
+xProcessPCH++
+x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.pth
+xNOC_1_7_motion101_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile NOC_1_7_motion101_Prefix.pch2e71f8e94dcdb741^3d2ab2f14dcdb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/NOC_1_7_motion101_Prefix.pch0000000000000000^3292"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.pth NOC_1_7_motion101_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-generated-files.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-own-target-headers.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-all-target-headers.hmap -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/NOC_1_7_motion101-project-headers.hmap -iquote../../../../include -iquote../include -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/build/Debug/include -I../../../../boost -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/DerivedSources/i386 -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/NOC_1_7_motion101.build/Debug/NOC_1_7_motion101.build/DerivedSources -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/build/Debug --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.dia -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/NOC_1_7_motion101_Prefix.pch -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_1_7_motion101_Prefix-guydrtnrzbqjjpebcjlpqncwuddt/NOC_1_7_motion101_Prefix.pch.d36"A4F73724-3163-486A-82C9-D4B70E15C699-
+
+CTouch /Developer/cinder_0.8.5_mac/projects/NOC/NOC_1_7_motion101/xcode/./build/Debug/NOC_1_7_motion101.app
+r0
+

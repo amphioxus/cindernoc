@@ -1,0 +1,281 @@
+TNOC_2_6_attraction
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Release/NOC_2_6_attraction.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.pth NOC_2_6_attraction_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/MacOS/NOC_2_6_attraction normal i386
+cTouch /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BB7BB600000000000000AA
+t1371241398
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000510CCF6400000000000024F0
+t1359794020
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005146122E0000000000024DD8
+t1363546670
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000005146122E00000000000060B4
+t1363546670
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000510CCF6400000000000001E5
+t1359794020
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000005146122E000000000000E9A8
+t1363546670
+s59816
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Developer/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Developer/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Developer/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../resources/CinderApp.icns
+c00000000522031610000000000070375
+t1377841505
+s459637
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cpp
+c0000000052225C770000000000000BE4
+t1377983607
+s3044
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attraction.LinkFileList
+c000000005222D6AC00000000000001F4
+t1378014892
+s500
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/MacOS/NOC_2_6_attraction
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cpp
+c0000000052225C3900000000000009B0
+t1377983545
+s2480
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp
+c00000000522194D400000000000008A6
+t1377932500
+s2214
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/NOC_2_6_attraction_Prefix.pch
+c0000000052203161000000000000012D
+t1377841505
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000501321460000000000006730
+t1343430982
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514617870000000000081CB0
+t1363548039
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051B23E1B000000000002DAD0
+t1370635803
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000051E0E97600000000004A2E10
+t1373694326
+s4861456
+
+N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000522031610000000000000462
+t1377841505
+s1122
+
+CBuild AST from /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cpp
+r0
+
+CBuild AST from /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cpp
+r0
+
+CBuild AST from /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd1776f2c0ed3b741^0f487e2c0ed3b741^---0#1#0#--18"Check dependencies36"6AB9E0FE-A53C-45E7-8BEC-D81F3ABB49FA-
+
+CCompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s399707699.408832
+e399707700.480168
+r1
+xCompileC
+x./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cppb4ca68330ed3b741^e1ec7a340ed3b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cpp0000000000000000^3350"CompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.o Attractor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-generated-files.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-own-target-headers.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-all-target-headers.hmap -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-project-headers.hmap -iquote../../../../include -iquote../include -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release/include -I../../../../boost -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources/i386 -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch -MMD -MT dependencies -MF /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.d --serialize-diagnostics /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.dia -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Attractor.cpp -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Attractor.o36"417A5B2B-8CB4-4384-AC44-7E0C537F36AD-
+
+CCompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s399707699.408825
+e399707700.471739
+r1
+xCompileC
+x./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp60ca68330ed3b741^c2c378340ed3b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp0000000000000000^3326"CompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.o Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-generated-files.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-own-target-headers.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-all-target-headers.hmap -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-project-headers.hmap -iquote../../../../include -iquote../include -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release/include -I../../../../boost -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources/i386 -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch -MMD -MT dependencies -MF /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.d --serialize-diagnostics /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.dia -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Mover.cpp -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/Mover.o36"E9526A79-F28A-4879-A5B6-3D748922AB25-
+
+CCompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s399707699.408837
+e399707700.490086
+r1
+xCompileC
+x./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cppebc968330ed3b741^85777d340ed3b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cpp0000000000000000^3436"CompileC ./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.o ../src/NOC_2_6_attractionApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-generated-files.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-own-target-headers.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-all-target-headers.hmap -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-project-headers.hmap -iquote../../../../include -iquote../include -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release/include -I../../../../boost -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources/i386 -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch -MMD -MT dependencies -MF /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.d --serialize-diagnostics /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.dia -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../src/NOC_2_6_attractionApp.cpp -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attractionApp.o36"B8B2BE64-F3E6-4205-8FFC-1DACBDB0AE68-
+
+CCpResource ../resources/CinderApp.icns ./build/Release/NOC_2_6_attraction.app/Contents/Resources/CinderApp.icns
+s399707692.508824
+e399707692.535552
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Release/NOC_2_6_attraction.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy ./build/Release/NOC_2_6_attraction.app/Contents/Resources/CinderApp.icnsac56822c0ed3b741^d61b892c0ed3b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Resources/CinderApp.icns000000000080d041^641"CpResource ../resources/CinderApp.icns ./build/Release/NOC_2_6_attraction.app/Contents/Resources/CinderApp.icns    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/../resources/CinderApp.icns /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Resources36"E09570CE-103B-45AF-836A-E6BEFD0E0D5F-
+
+CLd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/MacOS/NOC_2_6_attraction normal i386
+s399707700.496974
+e399707701.145700
+r1
+xLd
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/MacOS/NOC_2_6_attraction
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/MacOS/NOC_2_6_attractione04d7f340ed3b741^a04e25350ed3b741^---0#0#0#--1163"Ld ./build/Release/NOC_2_6_attraction.app/Contents/MacOS/NOC_2_6_attraction normal i386    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release -filelist /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/Objects-normal/i386/NOC_2_6_attraction.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../lib/libcinder.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/MacOS/NOC_2_6_attraction36"58EEBBAD-C434-4FF1-8422-DCF9650AE37F-
+
+CProcessInfoPlistFile /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Info.plist Info.plist
+s399707692.497453
+e399707692.500286
+r1
+xProcessInfoPlistFile
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistdc657f2c0ed3b741^3d2c802c0ed3b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/Info.plist0000000000000000^504"ProcessInfoPlistFile ./build/Release/NOC_2_6_attraction.app/Contents/Info.plist Info.plist    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app/Contents/Info.plist36"EED5A757-CD9F-47A0-8C4A-745561EE9D03-
+
+CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_2_6_attraction-bsshuozyfidyxldxwgkpxsgfhykk/Index/PrecompiledHeaders/NOC_2_6_attraction_Prefix-hfbucckrulrbklahbmbgrsxcxfpc_ast/NOC_2_6_attraction_Prefix.pch.pth NOC_2_6_attraction_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.pth NOC_2_6_attraction_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s399707692.543349
+e399707699.401454
+r1
+xProcessPCH++
+x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.pth
+xNOC_2_6_attraction_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Precompile NOC_2_6_attraction_Prefix.pchf8388b2c0ed3b741^5dc566330ed3b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/NOC_2_6_attraction_Prefix.pch0000000000000000^3343"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.pth NOC_2_6_attraction_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-generated-files.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-own-target-headers.hmap -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-all-target-headers.hmap -iquote /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/NOC_2_6_attraction-project-headers.hmap -iquote../../../../include -iquote../include -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release/include -I../../../../boost -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources/i386 -I/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/NOC_2_6_attraction.build/Release/NOC_2_6_attraction.build/DerivedSources -F/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/build/Release --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.dia -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/NOC_2_6_attraction_Prefix.pch -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_2_6_attraction_Prefix-cnmzgddbptzwqngocmwsqorvdyda/NOC_2_6_attraction_Prefix.pch.d36"2F6377A8-CFBB-4376-A502-404743CA8697-
+
+CTouch /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app
+s399707701.154077
+e399707701.159867
+r1
+xTouch
+x/Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Touch /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app998027350ed3b741^3eed28350ed3b741^---0#0#0#--245"Touch ./build/Release/NOC_2_6_attraction.app    cd /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode    /usr/bin/touch -c /Developer/cinder_0.8.5_mac/projects/NOC/NOC_2_6_attraction/xcode/./build/Release/NOC_2_6_attraction.app36"D9B4D32D-A983-4CC4-8647-D0BD219139AC-
+
