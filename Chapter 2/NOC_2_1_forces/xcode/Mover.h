@@ -28,7 +28,7 @@ public:
     float mass; // The object's virtual mass
     ci::Vec2f mouse; // mouse position
     ci::ColorA mColor;
-    std::list<ci::Vec2f> mHistory; // mover's history
+    std::deque<ci::Vec2f> mHistory; // mover's history
     
     void init();
     void update();

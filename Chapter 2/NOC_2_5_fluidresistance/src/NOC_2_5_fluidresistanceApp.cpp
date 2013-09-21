@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 2-05: Fluid resistance
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/TextureFont.h"
@@ -19,7 +28,7 @@ class NOC_2_5_fluidresistanceApp : public AppNative {
 	void draw();
     void reset_movers();
     void clear_movers();
-    
+    // TODO change to pointers:
     Liquid liquid;
     std::list<Mover> movers; // list to store mover objects
     

@@ -1,3 +1,13 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 2-01: Setting up forces
+
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Mover.h"
@@ -15,14 +25,14 @@ class NOC_2_1_forcesApp : public AppNative {
 	void update();
 	void draw();
     
-    std::list<Mover> movers; // C++ list to store Mover objects
+    std::vector<Mover *> movers; // C++ vector to store pointers to Mover objects
     ci::Vec2f mouse; // store mouse position
     
 };
 
 void NOC_2_1_forcesApp::setup()
 {
-        movers.push_back( Mover() );
+        movers.push_back( new Mover() );
 }
 
 void NOC_2_1_forcesApp::mouseDown( MouseEvent event )
@@ -43,11 +53,11 @@ void NOC_2_1_forcesApp::update()
 {
     ci::Vec2f wind (0.01, 0);
     ci::Vec2f gravity (0, 0.1);
-    for ( std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++)
-    {
-        it->apply_force(wind);
-        it->apply_force(gravity);
-        it->update();
+    
+    for (auto m : movers) {
+        m->apply_force(wind);
+        m->apply_force(gravity);
+        m->update();
     }
 }
 
@@ -58,14 +68,11 @@ void NOC_2_1_forcesApp::draw()
 	gl::clear( Color( 0, 0, 0 ) );
     
     // iterate through all the Movers in the list:
-    for ( std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++)
-    {
-        
-        it->display_history();
-        it->display();
-        it->checkEdges();
+    for (auto m : movers) {
+        m->display_history();
+        m->display();
+        m->checkEdges();
     }
-    
 }
 
 CINDER_APP_NATIVE( NOC_2_1_forcesApp, RendererGl )

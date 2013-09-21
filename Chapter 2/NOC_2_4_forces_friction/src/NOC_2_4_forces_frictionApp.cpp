@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 2-04: Friction
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Mover.h"
@@ -15,7 +24,7 @@ class NOC_2_4_forces_friction : public AppNative {
 	void update();
 	void draw();
     
-    std::list<Mover> movers; // C++ list to store Mover objects
+    std::vector<Mover *> mMovers; // C++ list to store Mover objects
     ci::Vec2f mouse; // store mouse position
     
 };
@@ -25,7 +34,7 @@ void NOC_2_4_forces_friction::setup()
 //    setFrameRate(2.f);
     ci::Rand::randomize();
     for (int i = 0; i < 4; i++) {
-        movers.push_back( Mover( ci::Rand::randFloat(1.f, 4.f), ci::Rand::randFloat( ci::app::getWindowWidth() ), 0 ) );
+        mMovers.push_back( new Mover( ci::Rand::randFloat(1.f, 4.f), ci::Rand::randFloat( ci::app::getWindowWidth() ), 0 ) );
     }
         
 }
@@ -48,25 +57,21 @@ void NOC_2_4_forces_friction::update()
 {
     ci::Vec2f wind (0.01, 0);
     float cf = 0.05; // friction coefficient
-    
-    for ( std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++)
-    {
-        
+    for (auto m : mMovers) {
         // Gravity: normalized by mass
-        ci::Vec2f gravity (0, 0.1 * it->mass );
+        ci::Vec2f gravity (0, 0.1 * m->mass );
         
         // Friction:
         ci::Vec2f friction;
-        friction = it->velocity.safeNormalized(); // SAFE normalize is the key!
+        friction = m->velocity.safeNormalized(); // SAFE normalize is the key!
         friction = friction * -1 * cf; // reverse the force
-//        std::cout << friction << std::endl;
         
-        it->apply_force(friction); // comment this to turn off friction
+        m->apply_force( friction ); // comment this to turn off friction
         
-        it->apply_force(wind);
-        it->apply_force(gravity);
+        m->apply_force( wind );
+        m->apply_force( gravity );
         
-        it->update();
+        m->update();        
     }
 }
 
@@ -77,14 +82,11 @@ void NOC_2_4_forces_friction::draw()
 	gl::clear( Color( 0, 0, 0 ) );
     
     // iterate through all the Movers in the list:
-    for ( std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++)
-    {
-        
-        it->display_history();
-        it->display();
-        it->checkEdges();
+    for (auto m : mMovers) {
+        m->display_history();
+        m->display();
+        m->checkEdges();
     }
-    
 }
 
 CINDER_APP_NATIVE( NOC_2_4_forces_friction, RendererGl )
