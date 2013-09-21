@@ -6,14 +6,12 @@
 // Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
 
 // Example 1-3: Vector subtraction
-// I didn't translate this example, because in order to achieve the effect
-// one doesn't really need to subtract a vector.  In Processing,
-//       line(width/2,height/2,mouse.x,mouse.y);
+//
+// Done this way just to keep in line with the book
+//
+//       line(width/2,height/2,mouse.x,mouse.y); // (Processing code)
 // without prior subtraction step would have sufficed to show a line from the
-// window center to the cursor position. Since I don't know how to translate
-// Processing's "translate()" function, I did the same here in Cinder.
-// However, subtracting ci::vectors is easy. Just use the "-" (minus) sign.
-// See the next example (1.4) for actual vector subtraction.
+// window center to the cursor position. 
 
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
@@ -61,21 +59,22 @@ void NOC_1_3_vector_subtractionApp::update()
 }
 
 void NOC_1_3_vector_subtractionApp::draw()
-{    
+{
+    
     // create vector with window center coordinates:
     Vec2f center (getWindowWidth()/2. , getWindowHeight()/2. );
-    
+    // Subtracting vectors is easy:
+    Vec2f m = mouse - center;
     // clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
-    
+    gl::pushMatrices();
+    gl::translate( Vec2f (getWindowWidth()/2 , getWindowHeight()/2) );
     gl::color( 1.0f, 0.5f, 0.25f );
     gl::lineWidth(3.0);
     
-    // This is easier (no vector subtraction necessary:
-    gl::drawLine(center, mouse);
+    gl::drawLine( ci::Vec2f(0,0), m);
     
-    // But ci::vectors can be subtracted just like this:
-    // v3 = v2 - v1;
+    gl::popMatrices();
     
 }
 

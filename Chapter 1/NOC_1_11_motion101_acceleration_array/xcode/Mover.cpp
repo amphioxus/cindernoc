@@ -33,9 +33,8 @@ void Mover::update(ci::Vec2f mousepos) {
     acceleration *= 0.2;
     
     velocity += acceleration;
-    
-//    std::cout << acceleration << std::endl;
     velocity.limit(topspeed);
+    
     location += velocity;
 }
 

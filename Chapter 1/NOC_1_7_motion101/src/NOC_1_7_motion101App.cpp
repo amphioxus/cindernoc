@@ -25,8 +25,7 @@ class NOC_1_7_motion101App : public AppNative {
 	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
-    Mover mover; // declaration already creates a Mover object
-    
+    Mover * mover;    // pointer to mover object
 };
 
 
@@ -37,6 +36,7 @@ void NOC_1_7_motion101App::prepareSettings( Settings *settings )
 
 void NOC_1_7_motion101App::setup()
 {
+    mover = new Mover();
 }
 
 
@@ -46,8 +46,8 @@ void NOC_1_7_motion101App::mouseDown( MouseEvent event )
 
 void NOC_1_7_motion101App::update()
 {
-    mover.update();
-    mover.checkEdges();
+    mover->update();
+    mover->checkEdges();
 }
 
 void NOC_1_7_motion101App::draw()
@@ -55,7 +55,7 @@ void NOC_1_7_motion101App::draw()
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
     
-    mover.display();
+    mover->display();
     
 }
 

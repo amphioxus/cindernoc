@@ -10,8 +10,6 @@
 
 
 Mover::Mover() {
-    
- // Without a "Mover controller" class (or at least collecting movers in a std::list in the main app class) the getWindowWidth function can't be called because when the object is declared, no window exists yet. This leads to an exception.
     ci::Rand::randomize();
     location.x = ci::Rand::randFloat( 800. );
     location.y = ci::Rand::randFloat( 200.);

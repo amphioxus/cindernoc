@@ -25,6 +25,7 @@ class NOC_1_1_bouncingball_novectorsApp : public AppNative {
 	void draw();
 
 private:
+    float radius = 32;
     float x = 100;
     float y = 100;
     float xspeed = 2.5;
@@ -62,10 +63,12 @@ void NOC_1_1_bouncingball_novectorsApp::draw()
     ci::Vec2f center;
     center.x = x;
     center.y = y;
-    
-    gl::color(.2, .2, .2);
-    float radius = 48;
-    gl::drawSolidCircle(center, radius);
+
+    gl::color(.6, .6, .6);
+    gl::drawSolidCircle( center, radius );
+    gl::color(0, 0, 0);
+    gl::lineWidth(3.);
+    gl::drawStrokedCircle( center, radius );
     
     
 }

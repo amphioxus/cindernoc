@@ -5,7 +5,7 @@
 //
 // Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
 //
-// Example 1-10: Motion 101 (acceleration towards the mouse)
+// Example 1-11: Motion 101 (acceleration towards the mouse)
 //
 // Demonstration of the basics of motion with vector.
 // A "Mover" object stores location, velocity, and acceleration as vectors
@@ -38,7 +38,7 @@ class NOC_1_11_motion101_acceleration_arrayApp : public AppNative {
 	void update();
 	void draw();
     
-    std::list<Mover> movers; // C++ list to store Mover objects
+    std::vector<Mover * > movers; // C++ vector to store Mover objects
     
     ci::Vec2f mouse; // store mouse position
 };
@@ -54,7 +54,7 @@ void NOC_1_11_motion101_acceleration_arrayApp::setup()
 {
     // create 20 Mover objects
     for (int i = 0; i < 20; i++ ) {
-        movers.push_back( Mover() );
+        movers.push_back( new Mover() );
     }
 }
 
@@ -79,7 +79,7 @@ void NOC_1_11_motion101_acceleration_arrayApp::keyDown(KeyEvent event)
         setFullScreen( ! isFullScreen() );
     }
     else if (event.getChar() == 'a') {
-        movers.push_back( Mover() );
+        movers.push_back( new Mover() );
     } 
     else if (event.getChar() == 'x') {
         movers.pop_back();
@@ -101,12 +101,13 @@ void NOC_1_11_motion101_acceleration_arrayApp::draw()
 	gl::clear( Color( 0, 0, 0 ) );
     // Turn on additive blending
 	gl::enableAlphaBlending();
+    
     // iterate through all the Movers in the list:
-    for ( std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++)
-    {
-        it->update(mouse);
-        it->display();
+    for (auto mover : movers) {
+        mover->update( mouse );
+        mover->display();
     }
+    
     gl::disableAlphaBlending();
     
 }

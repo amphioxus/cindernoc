@@ -24,6 +24,7 @@ class NOC_1_2_bouncingball_vectorsApp : public AppNative {
 	void draw();
     
 private:
+    float radius = 32;
     ci::Vec2f location;
     ci::Vec2f velocity;
     
@@ -33,8 +34,11 @@ void NOC_1_2_bouncingball_vectorsApp::setup()
 {
     setFrameRate(60.);
     // set location and velocity:
-    location.x = 100; location.y = 100;
-    velocity.x = 2.5; velocity.y = 2.;
+    location = ci::Vec2f (100, 100);
+    velocity = ci::Vec2f (2.5, 2.0);
+    // alternatively:
+//    location.x = 100; location.y = 100;
+//    velocity.x = 2.5; velocity.y = 2.;
 }
 
 void NOC_1_2_bouncingball_vectorsApp::prepareSettings(Settings *settings) {
@@ -57,9 +61,11 @@ void NOC_1_2_bouncingball_vectorsApp::draw()
         velocity.y = velocity.y * -1;
     }
     
-    gl::color(.2, .2, .2);
-    float radius = 48;
-    gl::drawSolidCircle(location, radius);
+    gl::color(.6, .6, .6);
+    gl::drawSolidCircle( location, radius );
+    gl::color(0, 0, 0);
+    gl::lineWidth(3.);
+    gl::drawStrokedCircle( location, radius );
     
 }
 

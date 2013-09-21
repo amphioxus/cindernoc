@@ -24,7 +24,6 @@ Mover::Mover() {
 void Mover::update() {
     acceleration = ci::Rand::randVec2f(); // random vector along unit circle
     velocity += acceleration;
-//    std::cout << acceleration << std::endl;
     velocity.limit(topspeed);
     location += velocity;
 }
