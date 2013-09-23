@@ -4,9 +4,9 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist" Info.plist
 cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity" normal i386
 cTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app"
 
@@ -39,41 +39,6 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 c000000005146122E000000000000E9A8
 t1363546670
 s59816
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Cinder.h
-c0000000051780B7C0000000000000CEB
-t1366821756
-s3307
-
-N/Developer/cinder_0.8.5_mac/include/cinder/CinderMath.h
-c0000000051780B7C0000000000001F9E
-t1366821756
-s8094
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Matrix.h
-c0000000051780B7C0000000000000EDD
-t1366821756
-s3805
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Quaternion.h
-c0000000051780B7D0000000000005499
-t1366821757
-s21657
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Vector.h
-c0000000051780B7D000000000000AD7C
-t1366821757
-s44412
-
-N/Developer/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
-c0000000051780B7D0000000000002262
-t1366821757
-s8802
-
-N/Developer/cinder_0.8.5_mac/include/cinder/gl/gl.h
-c0000000051780B7E0000000000006469
-t1366821758
-s25705
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../../../boost/boost/aligned_storage.hpp
 c00000000513E9EF000000000000010C9
@@ -4040,58 +4005,58 @@ c0000000051780B7E0000000000006469
 t1366821758
 s25705
 
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp
-c000000005232A770000000000000094D
-t1379051376
-s2381
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.h
-c000000005232A77100000000000002E4
-t1379051377
-s740
-
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../resources/CinderApp.icns
 c0000000052300F7A0000000000070375
 t1378881402
 s459637
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp
-c0000000052322EE50000000000000592
-t1379020517
-s1426
+c00000000523F29230000000000000656
+t1379871011
+s1622
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app
-t1379020521
+t1379871153
 s102
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist
-t1378962130
+t1379827436
 s1504
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity
-t1379020521
-s2826844
+t1379871153
+s2816884
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/PkgInfo
-t1378962130
+t1379827436
 s8
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns
-t1378962130
+t1379827436
 s459637
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o
-t2
-s0
+t1379871153
+s2187608
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocity.LinkFileList
-c0000000052314AD20000000000000198
-t1378962130
+c00000000523F21B90000000000000198
+t1379869113
 s408
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o
-t1379051358
-s1779028
+t1379871153
+s1728436
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.cpp
+c00000000523F28E4000000000000086B
+t1379870948
+s2155
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.h
+c00000000523F28FE000000000000036C
+t1379870974
+s876
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/NOC_3_03_pointing_velocity_Prefix.pch
 c0000000052300F7A000000000000012D
@@ -4117,17 +4082,17 @@ t1363548039
 s531632
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c0000000051B23E1B000000000002DAD0
-t1370635803
+c00000000523739B3000000000002DAD0
+t1379350963
 s187088
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c0000000051E0E97600000000004A2E10
-t1373694326
+c00000000523739B400000000004A2E10
+t1379350964
 s4861456
 
-N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.pth
-t1378962136
+N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.pth
+t1379827440
 s64073424
 
 NInfo.plist
@@ -4135,32 +4100,32 @@ c0000000052300F7A0000000000000462
 t1378881402
 s1122
 
-CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp"
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp"
 r0
 
-CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp"
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.cpp"
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1689c9f1dee2b741^0dffc9f1dee2b741^---0#1#0#--18"Check dependencies36"4EFC8CAB-992B-4CBE-8983-FE324145431E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7de9b1d690efb741^b83bd7d690efb741^---0#1#0#--18"Check dependencies36"21C179D0-CF19-4E67-8278-64C0EFF388D2-
 
-CCompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400744177.824799
-e400744179.087471
+CCompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401563951.960462
+e401563953.177917
 r1
 xCompileC
 x./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o
-x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp5a45d3f1dee2b741^ae6516f3dee2b741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/../../../Chapter%202/NOC_02forces_attractrepel/xcode/Mover.cpp0000000000000000^3881"CompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o "../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o"36"B9A35E01-2EC6-4211-AEF5-A715EC9C69C9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.cppecfaf52f61efb741^268d2d3161efb741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/Mover.cpp0000000000000000^3777"CompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/Mover.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/Mover.o"36"11D963CA-8896-425C-89C8-B2366DA47367-
 
 CCompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400744177.824800
-e400744179.053296
+s401563951.960466
+e401563953.070763
 r1
 xCompileC
 x./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o
@@ -4169,57 +4134,57 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp4a45d3f1dee2b741^a1a30df3dee2b741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp0000000000000000^3935"CompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o ../src/NOC_3_03_pointing_velocityApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o"36"CA29D24F-2C6C-4873-B0C1-EF9203C2D710-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp8ffcf52f61efb741^151c123161efb741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp0000000000000000^3935"CompileC ./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o ../src/NOC_3_03_pointing_velocityApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../src/NOC_3_03_pointing_velocityApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocityApp.o"36"B4CFEB6C-915E-4BCB-B7A1-7718A91569A1-
 
 CCpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns
-s400654930.830396
-e400654930.884477
+s401520236.706670
+e401520236.740524
 r1
 xCpResource
 x../resources/CinderApp.icns
 x./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns3fa7d45282e1b741^3f6fe25282e1b741^---0#0#0#-19%DVTDocumentLocation2@180"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns000000000080d041^587"CpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../resources/CinderApp.icns" "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources"36"295E7318-5622-4983-8F65-73BB3A9A04CD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icnse7fcb46cb6eeb741^a7ebbd6cb6eeb741^---0#0#0#-19%DVTDocumentLocation2@180"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns000000000080d041^587"CpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources/CinderApp.icns    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/../resources/CinderApp.icns" "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Resources"36"72B53755-EBE9-4A1C-8BC9-2D705C3151A2-
 
 CLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity" normal i386
-s400744179.094513
-e400744179.933145
+s401563953.184862
+e401563953.779641
 r1
 xLd
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"Link /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity115118f3dee2b741^54e2eef3dee2b741^---0#0#0#--1314"Ld ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity normal i386    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" -filelist "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocity.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../../lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity"36"6B60E86B-C49C-457E-8010-0D5D429C3B03-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"Link /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocitye8662f3161efb741^5b96c73161efb741^---0#0#0#--1314"Ld ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity normal i386    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" -filelist "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/Objects-normal/i386/NOC_3_03_pointing_velocity.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../../lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/MacOS/NOC_3_03_pointing_velocity"36"4681572A-6191-4351-BFF1-BE8F4B10F24D-
 
 CProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist" Info.plist
-s400654930.818905
-e400654930.822357
+s401520236.678716
+e401520236.691597
 r1
 xProcessInfoPlistFile
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist
 xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist4ab7d15282e1b741^9336d55282e1b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/Info.plist0000000000000000^582"ProcessInfoPlistFile ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist"36"E16F6743-7C6A-4623-9783-7B963A3B86C8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist9431ae6cb6eeb741^4911b16cb6eeb741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/Info.plist0000000000000000^582"ProcessInfoPlistFile ./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app/Contents/Info.plist"36"4C3BB1C6-AD38-4992-8EB2-96F8AEB871CA-
 
-CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_3_03_pointing_velocity-bcisrwjobepfrcfvhdnvdbxgsqev/Index/PrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-ewcwvjvsyzuvndbnncpixocavkix_ast/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_3_03_pointing_velocity-bcisrwjobepfrcfvhdnvdbxgsqev/Index/PrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-dhzvlockggwizacydjfqzuqblslm_ast/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400654930.892031
-e400654937.100390
+CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401520236.749544
+e401520240.544644
 r1
 xProcessPCH++
-x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.pth
+x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.pth
 xNOC_3_03_pointing_velocity_Prefix.pch
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile NOC_3_03_pointing_velocity_Prefix.pche97ce45282e1b741^9eb3195982e1b741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/NOC_3_03_pointing_velocity_Prefix.pch0000000000000000^3742"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/NOC_3_03_pointing_velocity_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-guuocjrymjmwfoahbisbaqsuspfq/NOC_3_03_pointing_velocity_Prefix.pch.d36"43ED73F3-BC78-4B91-8866-4FA607726188-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile NOC_3_03_pointing_velocity_Prefix.pch7afbbf6cb6eeb741^7e6f8b70b6eeb741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_03_pointing_velocity/xcode/NOC_3_03_pointing_velocity_Prefix.pch0000000000000000^3742"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.pth NOC_3_03_pointing_velocity_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/NOC_3_03_pointing_velocity-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/NOC_3_03_pointing_velocity.build/Debug/NOC_3_03_pointing_velocity.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/NOC_3_03_pointing_velocity_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_03_pointing_velocity_Prefix-cyedqbghylcbcbdnaulyxeaxujcp/NOC_3_03_pointing_velocity_Prefix.pch.d36"DF8FF7FD-65F2-4FD1-8B35-A5A6163A03B2-
 
 CTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app"
-s400744179.941541
-e400744179.947162
+s401563953.787749
+e401563953.793236
 r1
 xTouch
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Touch /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app431af1f3dee2b741^2579f2f3dee2b741^---0#0#0#--297"Touch ./build/Debug/NOC_3_03_pointing_velocity.app    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    /usr/bin/touch -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app"36"C83765CA-6011-4D62-961A-D4CA99DE4A4D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Touch /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app9eb7c93161efb741^ed10cb3161efb741^---0#0#0#--297"Touch ./build/Debug/NOC_3_03_pointing_velocity.app    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode"    /usr/bin/touch -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_03_pointing_velocity/xcode/./build/Debug/NOC_3_03_pointing_velocity.app"36"F117EF92-3235-424E-A72C-68283744E215-
 

@@ -18,8 +18,8 @@ class NOC_02forces_attractrepel : public AppNative {
 	void update();
 	void draw();
     
-    std::list<Mover> movers;
-    std::list<Attractor> attractors;
+    std::vector<Mover *> mMovers;
+    std::list<Attractor *> mAttractors;
 };
 
 void NOC_02forces_attractrepel::setup()

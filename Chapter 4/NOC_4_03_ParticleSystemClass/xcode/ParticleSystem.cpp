@@ -26,7 +26,6 @@ void ParticleSystem::update() {
         p->update();
         if ( p->isDead() ) {
             mParticles.erase( mParticles.begin() + i );
-            mParticles.
         }       
     }
 }

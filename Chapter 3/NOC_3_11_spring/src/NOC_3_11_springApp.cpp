@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+
+// Example 3-11: Spring
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Bob.h"

@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 4-3: Particle System class
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "ParticleSystem.h"
@@ -26,7 +35,6 @@ void NOC_4_03_ParticleSystemClassApp::setup()
 void NOC_4_03_ParticleSystemClassApp::mouseDown( MouseEvent event )
 {
     mParticleSystems.push_back( new ParticleSystem( event.getPos() ));
-//    mParticleSystems.push_back( new ParticleSystem(ci::Vec2f (randFloat(0., getWindowWidth() ), randFloat(0., getWindowHeight())) ));
 }
 
 void NOC_4_03_ParticleSystemClassApp::update()

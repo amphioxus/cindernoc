@@ -4,9 +4,9 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist" Info.plist
 cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch.pth NOC_3_10_PendulumExample_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.pth NOC_3_10_PendulumExample_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample" normal i386
 cTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app"
 
@@ -3830,6 +3830,16 @@ c0000000051780B7C00000000000038D3
 t1366821756
 s14547
 
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/Color.h
 c0000000051780B7C00000000000035A1
 t1366821756
@@ -3875,6 +3885,11 @@ c0000000051780B7C0000000000002D7E
 t1366821756
 s11646
 
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/Matrix22.h
 c0000000051780B7C0000000000003E52
 t1366821756
@@ -3909,6 +3924,11 @@ N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xco
 c0000000051780B7D0000000000000EDA
 t1366821757
 s3802
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/Ray.h
 c0000000051780B7D0000000000000AA0
@@ -3950,10 +3970,20 @@ c0000000051780B7D00000000000017F7
 t1366821757
 s6135
 
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/app/App.h
 c0000000051780B7D0000000000008B1F
 t1366821757
 s35615
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/app/AppNative.h
 c0000000051780B7E0000000000000876
@@ -4000,30 +4030,35 @@ c0000000051780B7E0000000000002552
 t1366821758
 s9554
 
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../../../../../include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../resources/CinderApp.icns
 c000000005233E9C50000000000070375
 t1379133893
 s459637
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp
-c000000005233FC80000000000000052B
-t1379138688
-s1323
+c00000000523E881400000000000005F0
+t1379829780
+s1520
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app
-t1379138970
+t1379823428
 s102
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist
-t1379136956
+t1379823422
 s1498
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample
-t1379138970
+t1379823428
 s2778352
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/PkgInfo
-t1379136956
+t1379823422
 s8
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources/CinderApp.icns
@@ -4036,11 +4071,11 @@ t1379136956
 s397
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o
-t1379138691
+t1379823427
 s1696936
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o
-t1379138970
+t1379823427
 s98444
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/NOC_3_10_PendulumExample_Prefix.pch
@@ -4057,9 +4092,9 @@ i"cinder/Vector.h"
 i"cinder/Quaternion.h"
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.cpp
-c000000005233FD9800000000000009AA
-t1379138968
-s2474
+c00000000523E881500000000000009A9
+t1379829781
+s2473
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.h
 c000000005233F5BC00000000000003C4
@@ -4077,17 +4112,21 @@ t1363548039
 s531632
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c0000000051B23E1B000000000002DAD0
-t1370635803
+c00000000523739B3000000000002DAD0
+t1379350963
 s187088
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c0000000051E0E97600000000004A2E10
-t1373694326
+c00000000523739B400000000004A2E10
+t1379350964
 s4861456
 
 N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch.pth
 t1379136960
+s64069996
+
+N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.pth
+t1379823426
 s64069996
 
 NInfo.plist
@@ -4103,11 +4142,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies994558b20ee5b741^496671b20ee5b741^---0#1#0#--18"Check dependencies36"E8BDA58D-D382-4059-BE7E-29ECB0CA7DCA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5da86c95bfeeb741^f5a09c95bfeeb741^---0#1#0#--18"Check dependencies36"546E31DD-626B-414A-BA53-14A7B3476492-
 
 CCompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400831490.748757
-e400831491.810305
+s401522581.658486
+e401522586.898005
 r1
 xCompileC
 x./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o
@@ -4116,11 +4155,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp21cebf0234e4b741^da71cf0334e4b741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp0000000000000000^3845"CompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o ../src/NOC_3_10_PendulumExampleApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o"36"B4D5A0D6-8FC4-4B91-8465-D03F92643486-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp9fb0a895bfeeb741^60e4e59abfeeb741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp0000000000000000^3845"CompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o ../src/NOC_3_10_PendulumExampleApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../src/NOC_3_10_PendulumExampleApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExampleApp.o"36"8E389A13-8F3D-4A4A-880A-42510961AB9B-
 
 CCompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400831769.404857
-e400831770.147220
+s401522581.658479
+e401522586.440720
 r1
 xCompileC
 x./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o
@@ -4129,7 +4168,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.cpp6ac1671935e4b741^d1af251a35e4b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/Pendulum.cpp0000000000000000^3717"CompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o Pendulum.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o"36"817CF81F-321A-46AA-BE5F-9915AD9DB1BA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.cpp9fb0a895bfeeb741^2dd2709abfeeb741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/Pendulum.cpp0000000000000000^3717"CompileC ./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o Pendulum.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/Pendulum.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/Pendulum.o"36"F16E6E2C-FD49-46AF-9448-2C523E5C0648-
 
 CCpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources/CinderApp.icns
 s400829756.901417
@@ -4141,23 +4180,26 @@ x./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy ./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources/CinderApp.icnsdbdee63c2de4b741^e927f03c2de4b741^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources/CinderApp.icns000000000080d041^577"CpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources/CinderApp.icns    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/../resources/CinderApp.icns" "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Resources"36"322713B9-4661-43F7-90B0-4FC4AF9A33C5-
 
 CLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample" normal i386
-s400831770.154087
-e400831770.761267
+s401522586.905107
+e401522587.491197
 r1
 xLd
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Link /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExampled785271a35e4b741^bde1c21a35e4b741^---0#0#0#--1290"Ld ./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample normal i386    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" -filelist "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExample.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../../lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample"36"13945F3D-A509-4F76-BF71-6C7B6E832CA4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Link /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample4fcfe79abfeeb741^c2be7d9bbfeeb741^---0#0#0#--1290"Ld ./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample normal i386    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" -filelist "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/Objects-normal/i386/NOC_3_10_PendulumExample.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../../lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/MacOS/NOC_3_10_PendulumExample"36"A90359D9-3951-4EA0-BB82-E0BE69299233-
 
 CProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist" Info.plist
-s400829756.890752
-e400829756.893527
+s401516222.326885
+e401516222.329608
 r1
 xProcessInfoPlistFile
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist
 xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist1217e43c2de4b741^e5d2e43c2de4b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/Info.plist0000000000000000^570"ProcessInfoPlistFile ./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist"36"718639DE-500A-4094-97CA-22D51686FA60-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist55be53bea6eeb741^e36e54bea6eeb741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/Info.plist0000000000000000^570"ProcessInfoPlistFile ./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app/Contents/Info.plist"36"3B6BFAF0-F816-41BC-B843-5B4975C4650C-
+
+CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_3_10_PendulumExample-gpfjcbfbugrcejekhxnycnpwqnzs/Index/PrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-cyjqoitviggkqsdwqafdjvdscqir_ast/NOC_3_10_PendulumExample_Prefix.pch.pth NOC_3_10_PendulumExample_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
 
 CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_3_10_PendulumExample-gpfjcbfbugrcejekhxnycnpwqnzs/Index/PrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-hkzyswpzbnhffzcilstercaheibt_ast/NOC_3_10_PendulumExample_Prefix.pch.pth NOC_3_10_PendulumExample_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -4175,11 +4217,24 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile NOC_3_10_PendulumExample_Prefix.pch7154f23c2de4b741^1cd2f8402de4b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/NOC_3_10_PendulumExample_Prefix.pch0000000000000000^3670"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch.pth NOC_3_10_PendulumExample_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/NOC_3_10_PendulumExample_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-bjnmuehzqovbjjcgccrljyrdngpp/NOC_3_10_PendulumExample_Prefix.pch.d36"311D74E3-A947-47D3-BAF4-6A6302DD0E42-
 
+CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.pth NOC_3_10_PendulumExample_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401516222.355079
+e401516226.385908
+r1
+xProcessPCH++
+x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.pth
+xNOC_3_10_PendulumExample_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile NOC_3_10_PendulumExample_Prefix.pcha4385bbea6eeb741^9bca62c2a6eeb741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_10_PendulumExample/xcode/NOC_3_10_PendulumExample_Prefix.pch0000000000000000^3670"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.pth NOC_3_10_PendulumExample_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/NOC_3_10_PendulumExample-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/NOC_3_10_PendulumExample.build/Debug/NOC_3_10_PendulumExample.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/NOC_3_10_PendulumExample_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_10_PendulumExample_Prefix-ghmxdijqyfjcdqdntowybwdcidyj/NOC_3_10_PendulumExample_Prefix.pch.d36"C08BC66B-308B-4ED5-A903-8E9A416F6789-
+
 CTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app"
-s400831770.769625
-e400831770.775074
+s401522587.499530
+e401522587.506294
 r1
 xTouch
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Touch /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app6616c51a35e4b741^ba6ac61a35e4b741^---0#0#0#--289"Touch ./build/Debug/NOC_3_10_PendulumExample.app    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    /usr/bin/touch -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app"36"C2BF9780-FB67-4155-A376-0EDA75DA5A79-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Touch /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app88f47f9bbfeeb741^5a9c819bbfeeb741^---0#0#0#--289"Touch ./build/Debug/NOC_3_10_PendulumExample.app    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode"    /usr/bin/touch -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_10_PendulumExample/xcode/./build/Debug/NOC_3_10_PendulumExample.app"36"890634E2-7E65-4397-8E3D-63ACD161D5E7-
 

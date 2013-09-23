@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 3-03: Pointing velocity
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Mover.h"
@@ -18,12 +27,12 @@ class NOC_3_03_pointing_velocityApp : public AppNative {
     
     ci::Vec2f mousePos;
 private:
-    MoverRef mMover; // pointer to mover
+    Mover * mMover; // pointer to mover
 };
 
 void NOC_3_03_pointing_velocityApp::setup()
 {
-    mMover = MoverRef( new Mover() );
+    mMover = new Mover() ;
 }
 
 void NOC_3_03_pointing_velocityApp::prepareSettings( Settings *settings ) {

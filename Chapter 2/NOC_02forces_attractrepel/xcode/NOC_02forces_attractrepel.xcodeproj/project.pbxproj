@@ -17,8 +17,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		AD94B3A461B3439EB005DECC /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6D18EAF719E44B51A887D28F /* CinderApp.icns */; };
 		C1B8D83F820D4E3587E26461 /* NOC_2_8_mutual_attractionApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F4C11A2CA48A09CF7B060 /* NOC_2_8_mutual_attractionApp.cpp */; };
-		C650F73B17D29783002C7C61 /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C650F73A17D29783002C7C61 /* Mover.cpp */; };
-		C650F73E17D3EEE7002C7C61 /* Attractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C650F73D17D3EEE7002C7C61 /* Attractor.cpp */; };
+		C680916117EEB83D00AFD5FC /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C680916017EEB83D00AFD5FC /* Mover.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +37,8 @@
 		6D18EAF719E44B51A887D28F /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* NOC_02forces_attractrepel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOC_02forces_attractrepel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8569230B72454DA82D93FF /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
-		C650F73917D29783002C7C61 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mover.h; sourceTree = "<group>"; };
-		C650F73A17D29783002C7C61 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mover.cpp; sourceTree = "<group>"; };
-		C650F73C17D3EEE7002C7C61 /* Attractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attractor.h; sourceTree = "<group>"; };
-		C650F73D17D3EEE7002C7C61 /* Attractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Attractor.cpp; sourceTree = "<group>"; };
+		C680915F17EEB83D00AFD5FC /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mover.h; sourceTree = "<group>"; };
+		C680916017EEB83D00AFD5FC /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mover.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +70,8 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C680916017EEB83D00AFD5FC /* Mover.cpp */,
 				4C3F4C11A2CA48A09CF7B060 /* NOC_2_8_mutual_attractionApp.cpp */,
-				C650F73A17D29783002C7C61 /* Mover.cpp */,
-				C650F73D17D3EEE7002C7C61 /* Attractor.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -128,8 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				C650F73917D29783002C7C61 /* Mover.h */,
-				C650F73C17D3EEE7002C7C61 /* Attractor.h */,
+				C680915F17EEB83D00AFD5FC /* Mover.h */,
 				8D8569230B72454DA82D93FF /* Resources.h */,
 				40BC52EC7EA54466A07C1CCF /* NOC_02forces_attractrepel_Prefix.pch */,
 			);
@@ -216,8 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B8D83F820D4E3587E26461 /* NOC_2_8_mutual_attractionApp.cpp in Sources */,
-				C650F73B17D29783002C7C61 /* Mover.cpp in Sources */,
-				C650F73E17D3EEE7002C7C61 /* Attractor.cpp in Sources */,
+				C680916117EEB83D00AFD5FC /* Mover.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

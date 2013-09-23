@@ -17,8 +17,8 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		9AD7737499DA4E9A899B08A7 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = A4CDE378367C4352830FB096 /* CinderApp.icns */; };
 		A3AAC2E13E2A4031B6C6E407 /* NOC_3_02_forces_angular_motionApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE5D0543CF7B4E83951B3A0A /* NOC_3_02_forces_angular_motionApp.cpp */; };
-		C6C2D1CC17DE7CFB000B307F /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6C2D1CA17DE7CFB000B307F /* Mover.cpp */; };
-		C6C2D1CD17DE7CFB000B307F /* Attractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6C2D1CB17DE7CFB000B307F /* Attractor.cpp */; };
+		C680916417EEB88100AFD5FC /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C680916317EEB88100AFD5FC /* Mover.cpp */; };
+		C680916717EEB8F600AFD5FC /* Attractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C680916617EEB8F600AFD5FC /* Attractor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		8D1107320486CEB800E47090 /* NOC_3_02_forces_angular_motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOC_3_02_forces_angular_motion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CDE378367C4352830FB096 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		AE69B5978304497DAF066FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6C2D1C817DE7CFB000B307F /* Attractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attractor.h; path = "../../../Chapter 2/NOC_02forces_attractrepel/xcode/Attractor.h"; sourceTree = "<group>"; };
+		C680916217EEB88100AFD5FC /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mover.h; sourceTree = "<group>"; };
+		C680916317EEB88100AFD5FC /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mover.cpp; sourceTree = "<group>"; };
+		C680916517EEB8F600AFD5FC /* Attractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attractor.h; sourceTree = "<group>"; };
+		C680916617EEB8F600AFD5FC /* Attractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Attractor.cpp; sourceTree = "<group>"; };
 		C6C2D1C917DE7CFB000B307F /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = "../../../Chapter 2/NOC_02forces_attractrepel/include/Resources.h"; sourceTree = "<group>"; };
-		C6C2D1CA17DE7CFB000B307F /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = "../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp"; sourceTree = "<group>"; };
-		C6C2D1CB17DE7CFB000B307F /* Attractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Attractor.cpp; path = "../../../Chapter 2/NOC_02forces_attractrepel/xcode/Attractor.cpp"; sourceTree = "<group>"; };
-		C6C2D1CE17DE7D97000B307F /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = "../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.h"; sourceTree = "<group>"; };
 		F3D9D93AA12440EF8C53A692 /* NOC_3_02_forces_angular_motion_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = NOC_3_02_forces_angular_motion_Prefix.pch; sourceTree = "<group>"; };
 		FE5D0543CF7B4E83951B3A0A /* NOC_3_02_forces_angular_motionApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = NOC_3_02_forces_angular_motionApp.cpp; path = ../src/NOC_3_02_forces_angular_motionApp.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				FE5D0543CF7B4E83951B3A0A /* NOC_3_02_forces_angular_motionApp.cpp */,
-				C6C2D1CA17DE7CFB000B307F /* Mover.cpp */,
-				C6C2D1CB17DE7CFB000B307F /* Attractor.cpp */,
+				C680916317EEB88100AFD5FC /* Mover.cpp */,
+				C680916617EEB8F600AFD5FC /* Attractor.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -128,8 +128,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				C6C2D1CE17DE7D97000B307F /* Mover.h */,
-				C6C2D1C817DE7CFB000B307F /* Attractor.h */,
+				C680916217EEB88100AFD5FC /* Mover.h */,
+				C680916517EEB8F600AFD5FC /* Attractor.h */,
 				C6C2D1C917DE7CFB000B307F /* Resources.h */,
 				F3D9D93AA12440EF8C53A692 /* NOC_3_02_forces_angular_motion_Prefix.pch */,
 			);
@@ -216,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3AAC2E13E2A4031B6C6E407 /* NOC_3_02_forces_angular_motionApp.cpp in Sources */,
-				C6C2D1CC17DE7CFB000B307F /* Mover.cpp in Sources */,
-				C6C2D1CD17DE7CFB000B307F /* Attractor.cpp in Sources */,
+				C680916417EEB88100AFD5FC /* Mover.cpp in Sources */,
+				C680916717EEB8F600AFD5FC /* Attractor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

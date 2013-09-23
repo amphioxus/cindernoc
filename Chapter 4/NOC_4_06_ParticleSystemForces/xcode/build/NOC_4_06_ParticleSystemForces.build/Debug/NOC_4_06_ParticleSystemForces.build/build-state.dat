@@ -6,8 +6,8 @@ cProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_
 cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_4_06_ParticleSystemForces.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_06_ParticleSystemForces_Prefix-fiyazckatdvzclgljrngbfbitpyz/NOC_4_06_ParticleSystemForces_Prefix.pch.pth NOC_4_06_ParticleSystemForces_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_4_06_ParticleSystemForces.build/Debug/NOC_4_06_ParticleSystemForces.build/Objects-normal/i386/NOC_4_03_ParticleSystemClassApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/../src/NOC_4_03_ParticleSystemClassApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_4_06_ParticleSystemForces.build/Debug/NOC_4_06_ParticleSystemForces.build/Objects-normal/i386/ParticleSystem.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_4_06_ParticleSystemForces.build/Debug/NOC_4_06_ParticleSystemForces.build/Objects-normal/i386/Particle.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_4_06_ParticleSystemForces.build/Debug/NOC_4_06_ParticleSystemForces.build/Objects-normal/i386/ParticleSystem.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/Debug/NOC_4_06_ParticleSystemForces.app/Contents/MacOS/NOC_4_06_ParticleSystemForces" normal i386
 cTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/Debug/NOC_4_06_ParticleSystemForces.app"
 
@@ -4052,7 +4052,7 @@ t1379478454
 s1785
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/Debug/NOC_4_06_ParticleSystemForces.app
-t1379478340
+t1379654202
 s102
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/Debug/NOC_4_06_ParticleSystemForces.app/Contents/Info.plist
@@ -4060,8 +4060,8 @@ t1379478315
 s1513
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/Debug/NOC_4_06_ParticleSystemForces.app/Contents/MacOS/NOC_4_06_ParticleSystemForces
-t1379478339
-s2804868
+t1379654202
+s2804876
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/Debug/NOC_4_06_ParticleSystemForces.app/Contents/PkgInfo
 t1379478315
@@ -4072,7 +4072,7 @@ t1379284634
 s459637
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/NOC_4_06_ParticleSystemForces.build/Debug/NOC_4_06_ParticleSystemForces.build/Objects-normal/i386/NOC_4_03_ParticleSystemClassApp.o
-t1379478329
+t1379654200
 s1780556
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/./build/NOC_4_06_ParticleSystemForces.build/Debug/NOC_4_06_ParticleSystemForces.build/Objects-normal/i386/NOC_4_06_ParticleSystemForces.LinkFileList
@@ -4165,7 +4165,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc6a7c0aa11ecb741^76530eab11ecb741^---0#1#0#--18"Check dependencies36"130CF7F6-5CC0-40E8-85E5-93EEE88C4F40-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6896443894efb741^6f7e873894efb741^---0#1#0#--18"Check dependencies36"30AF5C4B-1DDA-4972-A5B3-75084AF86C0E-
 
 CCompileC ./build/NOC_4_06_ParticleSystemForces.build/Debug/NOC_4_06_ParticleSystemForces.build/Objects-normal/i386/NOC_4_03_ParticleSystemClassApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_06_ParticleSystemForces/xcode/../src/NOC_4_03_ParticleSystemClassApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s401346987.211674

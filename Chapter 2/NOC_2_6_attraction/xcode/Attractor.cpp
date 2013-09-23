@@ -21,8 +21,8 @@ Attractor::Attractor(ci::Vec2f location, float mass) {
 }
 
 
-ci::Vec2f Attractor::attract(Mover m) {
-    ci::Vec2f force = mLocation - m.location;   // Calculate direction of force
+ci::Vec2f Attractor::attract(Mover * m) {
+    ci::Vec2f force = mLocation - m->location;   // Calculate direction of force
     float d = force.length(); // Distance between objects
     // Limiting the distance to eliminate "extreme" results for very close or very far objects:
     if (d < 5)
@@ -30,7 +30,7 @@ ci::Vec2f Attractor::attract(Mover m) {
     else if (d > 25)
         d = 25.f;
     
-    float strength = (mG * mMass * m.mMass) / (d * d);
+    float strength = (mG * mMass * m->mMass) / (d * d);
     return strength * force.safeNormalized();
 }
 
@@ -65,15 +65,11 @@ void Attractor::mouseup() {
 
 // update position when dragged
 void Attractor::dragged( ci::Vec2f mousepos ) {
-    ci::Vec2f dvec =  mLocation - mousepos;
-    float dis = dvec.length();
-    
-    if (dis < mMass) {
+    if (mClicked) {
         mLocation = mousepos;
-        mClicked = TRUE;
     }
-
 }
+
 
 void Attractor::set_G(float g) {
     mG = g;

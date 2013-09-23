@@ -45,9 +45,9 @@ void Mover::update() {
     acceleration *= 0; // set acceleration to zero after each cycle
 }
 
-ci::Vec2f Mover::attract(Mover m) {
+ci::Vec2f Mover::attract(Mover * m) {
     
-    ci::Vec2f force = location - m.location;     // Calculate direction of force
+    ci::Vec2f force = m->location - location;     // Calculate direction of force
     float distance = force.length();             // Distance between objects
     // Limiting the distance to eliminate "extreme" results for very close or very far objects:
     if ( distance < 5.0 )
@@ -55,10 +55,9 @@ ci::Vec2f Mover::attract(Mover m) {
     else if (distance > 25.0)
         distance = 25.0;
     
-    float strength = (mG * mMass * m.mMass) / (distance * distance); // Calculate gravitional force magnitude
+    float strength = (mG * mMass * m->mMass) / (distance * distance); // Calculate gravitional force magnitude
     
     return force.safeNormalized() * strength;   // Get force vector --> magnitude * direction
-
 }
 
 
@@ -100,10 +99,10 @@ void Mover::display_history() {
     ci::gl::enableAlphaBlending();
     ci::gl::color( ci::ColorA(.8f, .6f, .6f, 0.6f) );
     // iterate through history of each mover
-    for (std::list<ci::Vec2f>::iterator it = mHistory.begin(); it != mHistory.end(); it++) {
-
-        ci::Vec2f pos (it->x, it->y);
-        ci::gl::drawSolidCircle(pos, 1.5);
+    
+    for (auto it : mHistory) {
+        ci::gl::drawSolidCircle( ci::Vec2f (it.x, it.y), 1.5);
     }
+
     ci::gl::disableAlphaBlending();
 }

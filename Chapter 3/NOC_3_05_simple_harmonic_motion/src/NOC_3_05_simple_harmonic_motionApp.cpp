@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+
+// Example 3-5: Simple Harmonic Motion
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "cinder/CinderMath.h"
@@ -19,8 +28,7 @@ class NOC_3_05_simple_harmonic_motionApp : public AppNative {
 };
 
 void NOC_3_05_simple_harmonic_motionApp::setup()
-{
-    
+{    
 }
 
 void NOC_3_05_simple_harmonic_motionApp::prepareSettings( Settings *settings ) {
@@ -51,7 +59,6 @@ void NOC_3_05_simple_harmonic_motionApp::draw()
     gl::color(.8, .8, .8);
     gl::drawSolidCircle(ci::Vec2f(x, 0.), 24.0);
     gl::popMatrices();
-    
 }
 
 CINDER_APP_NATIVE( NOC_3_05_simple_harmonic_motionApp, RendererGl )

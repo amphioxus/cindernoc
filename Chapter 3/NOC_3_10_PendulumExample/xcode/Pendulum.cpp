@@ -53,7 +53,6 @@ void Pendulum::clicked(ci::Vec2f mousepos) {
 }
 
 
-
 void Pendulum::drag(ci::Vec2f mousepos) {
     // If we are draging the ball, we calculate the angle between the
     // pendulum origin and mouse location

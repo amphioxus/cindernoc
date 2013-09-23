@@ -1,4 +1,12 @@
-// Implementation using a std::list
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 2-06: Attraction
+
 
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
@@ -21,8 +29,8 @@ class NOC_2_6_attractionApp : public AppNative {
 	void update();
 	void draw();
     
-    std::list<Attractor> attractors;
-    std::list<Mover> movers;
+    std::list<Attractor *> mAttractors;
+    std::list<Mover *> mMovers;
     ci::Vec2f mousepos;
     
 };
@@ -33,19 +41,18 @@ void NOC_2_6_attractionApp::prepareSettings(Settings *settings) {
 void NOC_2_6_attractionApp::setup()
 {
     // create two attractors:
-    attractors.push_back( Attractor() );
-    attractors.push_back( Attractor( ci::Vec2f (100., 100.), 30) );
+    mAttractors.push_back( new Attractor() );
+    mAttractors.push_back( new Attractor( ci::Vec2f (100., 100.), 30) );
 
     // create one mover:
-    movers.push_back( Mover() );
+    mMovers.push_back( new Mover() );
 }
 
 void NOC_2_6_attractionApp::mouseDown( MouseEvent event )
 {
-    for (std::list<Attractor>::iterator it = attractors.begin(); it != attractors.end(); it++) {
-        it->clicked(mousepos);
-    }
-    
+    for (auto a : mAttractors) {
+        a->clicked(mousepos);
+    }    
 }
 
 void NOC_2_6_attractionApp::mouseMove( MouseEvent event )
@@ -55,14 +62,14 @@ void NOC_2_6_attractionApp::mouseMove( MouseEvent event )
 
 void NOC_2_6_attractionApp::mouseDrag( MouseEvent event ) {
     mouseMove( event );
-    for (std::list<Attractor>::iterator it = attractors.begin(); it != attractors.end(); it++) {
-        it->dragged(mousepos);
+    for (auto a : mAttractors) {
+        a->dragged( mousepos );
     }
 }
 
 void NOC_2_6_attractionApp::mouseUp( MouseEvent event ) {
-    for (std::list<Attractor>::iterator it = attractors.begin(); it != attractors.end(); it++) {
-        it->mouseup();
+    for (auto a : mAttractors) {
+        a->mouseup();
     }
 }
 
@@ -72,43 +79,43 @@ void NOC_2_6_attractionApp::keyDown(KeyEvent event ) {
         setFullScreen( ! isFullScreen() );
     }
     else if (event.getChar() == 'a' ) {
-        movers.push_back( Mover() );
+        mMovers.push_back( new Mover() );
     }
     else if (event.getChar() == 'd' ) {
-        movers.pop_front();
+        mMovers.pop_front();
     }
     else if (event.getChar() == 'x' ) {
-        movers.clear();
+        mMovers.clear();
     }
 }
 
 void NOC_2_6_attractionApp::update()
 {
     // go through attractors
-    for (std::list<Attractor>::iterator it = attractors.begin(); it != attractors.end(); it++) {
-        it->hover(mousepos);
-        
-        // go through movers for each attractor
-        for (std::list<Mover>::iterator mit = movers.begin(); mit != movers.end(); mit++) {
-            ci::Vec2f force = it->attract( *mit );
-            mit->apply_force(force);
-        }
-    }   
+    for (auto a : mAttractors) {
+        a->hover(mousepos);
+        // go through all movers for each attractor
+        for (auto m : mMovers) {
+            ci::Vec2f force = a->attract(m);
+            m->apply_force( force );
+        }        
+    }  
 }
+
 
 void NOC_2_6_attractionApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
     // Iterate through attractors
-    for (std::list<Attractor>::iterator it = attractors.begin(); it != attractors.end(); it++) {
-        it->display();
+    for (auto a : mAttractors) {
+        a->display();
     }
     
-    for (std::list<Mover>::iterator mit = movers.begin(); mit != movers.end(); mit++) {
-        mit->update();
-        mit->display();
-        mit->display_history();
+    for (auto m : mMovers) {
+        m->update();
+        m->display();
+        m->display_history();
     }
 }
 

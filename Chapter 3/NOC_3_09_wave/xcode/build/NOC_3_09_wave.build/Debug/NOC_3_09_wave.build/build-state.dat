@@ -4,7 +4,7 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Info.plist" Info.plist
 cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_09_wave.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave" normal i386
 cTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app"
@@ -3954,6 +3954,11 @@ c0000000051780B7D0000000000008B1F
 t1366821757
 s35615
 
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../../../../../include/cinder/app/AppNative.h
+c0000000051780B7E0000000000000876
+t1366821758
+s2166
+
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../../../../../include/cinder/app/Event.h
 c0000000051780B7E0000000000000A9F
 t1366821758
@@ -4000,12 +4005,12 @@ t1379133296
 s459637
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp
-c000000005233E92100000000000004BA
-t1379133729
-s1210
+c000000005233E94F00000000000003CF
+t1379133775
+s975
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app
-t1379133690
+t1379133732
 s102
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Info.plist
@@ -4013,8 +4018,8 @@ t1379133690
 s1465
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave
-t2
-s0
+t1379133731
+s2767436
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/PkgInfo
 t1379133690
@@ -4030,8 +4035,8 @@ t1379133690
 s164
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o
-t2
-s0
+t1379133730
+s1695916
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/NOC_3_09_wave_Prefix.pch
 c000000005233E770000000000000012D
@@ -4057,14 +4062,18 @@ t1363548039
 s531632
 
 N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c0000000051B23E1B000000000002DAD0
-t1370635803
+c00000000523739B3000000000002DAD0
+t1379350963
 s187088
 
 N/System/Library/Frameworks/QTKit.framework/QTKit
-c0000000051E0E97600000000004A2E10
-t1373694326
+c00000000523739B400000000004A2E10
+t1379350964
 s4861456
+
+N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.pth
+t2
+s0
 
 N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch.pth
 t1379133694
@@ -4080,11 +4089,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf915efa120e4b741^db4eefa120e4b741^---0#1#0#--18"Check dependencies36"2E4B6C11-A045-40A4-BB22-19F9F652AEB8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0ff0603fbfeeb741^58e2893fbfeeb741^---0#1#0#--18"Check dependencies36"B4BD5C84-077F-42FA-BAAF-770D405B8212-
 
 CCompileC ./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s400826529.981871
-e400826531.038239
+s401522499.658154
+e401522500.639755
 r1
 xCompileC
 x./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o
@@ -4093,7 +4102,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp0075fba120e4b741^2ec909a320e4b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp0000000000000000^3350"CompileC ./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o ../src/NOC_3_09_waveApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o"36"B9C7AEEA-960D-4717-9A0A-22B28E937AF6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp2ba4a843bfeeb741^6dc8a344bfeeb741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp0000000000000000^3350"CompileC ./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o ../src/NOC_3_09_waveApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../src/NOC_3_09_waveApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_waveApp.o"36"D635861B-14F9-4783-ADC3-DA8BBAF19CB8-
 
 CCpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_09_wave.app/Contents/Resources/CinderApp.icns
 s400826490.448940
@@ -4105,26 +4114,42 @@ x./build/Debug/NOC_3_09_wave.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy ./build/Debug/NOC_3_09_wave.app/Contents/Resources/CinderApp.icns9701737a20e4b741^93397a7a20e4b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Resources/CinderApp.icns000000000080d041^522"CpResource ../resources/CinderApp.icns ./build/Debug/NOC_3_09_wave.app/Contents/Resources/CinderApp.icns    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/../resources/CinderApp.icns" "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Resources"36"EBF89F89-A626-4625-A8F9-7FF95C72E7D0-
 
 CLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave" normal i386
-s400826531.045285
-e400826532.520817
+s401522500.646780
+e401522501.275750
 r1
 xLd
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Link /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave53b30ba320e4b741^ef5385a420e4b741^---0#0#0#--1158"Ld ./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave normal i386    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" -filelist "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_wave.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../../lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave"36"18E589F0-7429-48F3-9C29-508A20AA9DEF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Link /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave85b1a544bfeeb741^f6964645bfeeb741^---0#0#0#--1158"Ld ./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave normal i386    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" -filelist "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/Objects-normal/i386/NOC_3_09_wave.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../../lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/MacOS/NOC_3_09_wave"36"BBCE571E-C5A5-44B4-ABB9-F8A44929E96F-
 
 CProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Info.plist" Info.plist
-s400826490.430838
-e400826490.440754
+s401522495.542300
+e401522495.545305
 r1
 xProcessInfoPlistFile
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Info.plist
 xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistde756e7a20e4b741^32ff707a20e4b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_09_wave/xcode/Info.plist0000000000000000^504"ProcessInfoPlistFile ./build/Debug/NOC_3_09_wave.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Info.plist"36"5DECAAEA-7E37-49A9-AF1C-0D92A1803D96-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist92e78a3fbfeeb741^dc9b8b3fbfeeb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_09_wave/xcode/Info.plist0000000000000000^504"ProcessInfoPlistFile ./build/Debug/NOC_3_09_wave.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app/Contents/Info.plist"36"9482F848-4B34-454F-89ED-C6EB4F696F1B-
+
+CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_3_09_wave-ektiwifzcuylvyclyhokhoakzwoc/Index/PrecompiledHeaders/NOC_3_09_wave_Prefix-denhdshaffocvwaxdyrgjcxjhmkn_ast/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
 
 CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_3_09_wave-ektiwifzcuylvyclyhokhoakzwoc/Index/PrecompiledHeaders/NOC_3_09_wave_Prefix-esojeyeykjpboudqnojxguqjjnef_ast/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401522495.561409
+e401522499.650942
+r1
+xProcessPCH++
+x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.pth
+xNOC_3_09_wave_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile NOC_3_09_wave_Prefix.pch8dd08f3fbfeeb741^dfa3a643bfeeb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_09_wave/xcode/NOC_3_09_wave_Prefix.pch0000000000000000^3274"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/NOC_3_09_wave_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ebawbhzlnncjwvgzeommgkxzmmls/NOC_3_09_wave_Prefix.pch.d36"C8F6D18E-2542-478D-92A2-83603A38D304-
 
 CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s400826490.489960
@@ -4140,10 +4165,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile NOC_3_09_wave_Prefix.pchbe897d7a20e4b741^7765b77e20e4b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%203/NOC_3_09_wave/xcode/NOC_3_09_wave_Prefix.pch0000000000000000^3274"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch.pth NOC_3_09_wave_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/NOC_3_09_wave-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/NOC_3_09_wave.build/Debug/NOC_3_09_wave.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/NOC_3_09_wave_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_3_09_wave_Prefix-ghbvlgkpdwejdefqkostvgahdgec/NOC_3_09_wave_Prefix.pch.d36"61046FC9-73E1-4486-BE26-E0E469BF4571-
 
 CTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app"
-s400826532.528782
-e400826532.552619
+s401522501.283875
+e401522501.289360
 r1
 xTouch
 x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app587087a420e4b741^c9778da420e4b741^---0#0#0#--245"Touch ./build/Debug/NOC_3_09_wave.app    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    /usr/bin/touch -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app"36"83A9DCBF-68E9-4EB3-8226-34D1517FAAC8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app4dbb4845bfeeb741^6e134a45bfeeb741^---0#0#0#--245"Touch ./build/Debug/NOC_3_09_wave.app    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode"    /usr/bin/touch -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 3/NOC_3_09_wave/xcode/./build/Debug/NOC_3_09_wave.app"36"F17637A5-AF50-47AB-9A5A-7CE8169BB934-
 

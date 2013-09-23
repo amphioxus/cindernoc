@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D1107260486CEB800E47090"
-               BuildableName = "NOC_4_06_ParticleSystemForces.app"
+               BuildableName = "NOC_4_05_ParticleSystemInheritancePolymorphism.app"
                BlueprintName = "NOC_4_05_ParticleSystemInheritancePolymorphism"
                ReferencedContainer = "container:NOC_4_05_ParticleSystemInheritancePolymorphism.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "NOC_4_06_ParticleSystemForces.app"
+            BuildableName = "NOC_4_05_ParticleSystemInheritancePolymorphism.app"
             BlueprintName = "NOC_4_05_ParticleSystemInheritancePolymorphism"
             ReferencedContainer = "container:NOC_4_05_ParticleSystemInheritancePolymorphism.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "NOC_4_06_ParticleSystemForces.app"
+            BuildableName = "NOC_4_05_ParticleSystemInheritancePolymorphism.app"
             BlueprintName = "NOC_4_05_ParticleSystemInheritancePolymorphism"
             ReferencedContainer = "container:NOC_4_05_ParticleSystemInheritancePolymorphism.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "NOC_4_06_ParticleSystemForces.app"
+            BuildableName = "NOC_4_05_ParticleSystemInheritancePolymorphism.app"
             BlueprintName = "NOC_4_05_ParticleSystemInheritancePolymorphism"
             ReferencedContainer = "container:NOC_4_05_ParticleSystemInheritancePolymorphism.xcodeproj">
          </BuildableReference>

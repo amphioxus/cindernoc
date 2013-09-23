@@ -24,12 +24,12 @@ public:
     float mMass; // The object's virtual mass
 //    ci::Vec2f mouse; // mouse position
     ci::ColorA mColor;
-    std::list<ci::Vec2f> mHistory; // mover's history
+    std::deque<ci::Vec2f> mHistory; // mover's history
     float mG = 1; // gravitational constant
     
     void init();
     void update();
-    ci::Vec2f attract( Mover m );
+    ci::Vec2f attract( Mover * m );
     void apply_force( ci::Vec2f force );
     void checkEdges();
     void display();

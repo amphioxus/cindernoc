@@ -25,8 +25,8 @@ public:
     float mC;
     ci::ColorA mColor;
     
-    bool contains(Mover m);
-    ci::Vec2f drag(Mover m);
+    bool contains(Mover * m);
+    ci::Vec2f drag(Mover * m);
     void resize(float x, float y, float w, float h);
     void display();
 };

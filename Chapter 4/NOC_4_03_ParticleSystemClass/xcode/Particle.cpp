@@ -11,7 +11,7 @@
 
 Particle::Particle( ci::Vec2f location) {
     // initialize new particle:
-    mAcceleration = ci::Vec2f (0.0, 0.05);
+    mAcceleration = ci::Vec2f (0.0, 0.05); // gravity-like
     mVelocity = ci::Vec2f ( ci::randFloat(-1, 1), ci::randFloat(-1, 1) );
     mLocation = location;
     mLifeSpan = 255.;

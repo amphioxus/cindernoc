@@ -17,7 +17,7 @@
 		6A0CB2911AE846C0AE91EDDC /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 34DACBBE6CB54D768134D398 /* CinderApp.icns */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		BA063B293A7E4AC7BBD67819 /* NOC_3_03_pointing_velocityApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E127F89D730B45EFBCAB222E /* NOC_3_03_pointing_velocityApp.cpp */; };
-		C6FAE67C17E04717006A4932 /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6FAE67B17E04717006A4932 /* Mover.cpp */; };
+		C680916A17EEC90A00AFD5FC /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C680916917EEC90A00AFD5FC /* Mover.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* NOC_3_03_pointing_velocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOC_3_03_pointing_velocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6FAE67A17E04717006A4932 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = "../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.h"; sourceTree = "<group>"; };
-		C6FAE67B17E04717006A4932 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = "../../../Chapter 2/NOC_02forces_attractrepel/xcode/Mover.cpp"; sourceTree = "<group>"; };
+		C680916817EEC90A00AFD5FC /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mover.h; sourceTree = "<group>"; };
+		C680916917EEC90A00AFD5FC /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mover.cpp; sourceTree = "<group>"; };
 		E127F89D730B45EFBCAB222E /* NOC_3_03_pointing_velocityApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = NOC_3_03_pointing_velocityApp.cpp; path = ../src/NOC_3_03_pointing_velocityApp.cpp; sourceTree = "<group>"; };
 		FEF5D73B467B441A819EA03D /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				E127F89D730B45EFBCAB222E /* NOC_3_03_pointing_velocityApp.cpp */,
-				C6FAE67B17E04717006A4932 /* Mover.cpp */,
+				C680916917EEC90A00AFD5FC /* Mover.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				C6FAE67A17E04717006A4932 /* Mover.h */,
+				C680916817EEC90A00AFD5FC /* Mover.h */,
 				FEF5D73B467B441A819EA03D /* Resources.h */,
 				165A0B3A77DC41D5AB3EFD1C /* NOC_3_03_pointing_velocity_Prefix.pch */,
 			);
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA063B293A7E4AC7BBD67819 /* NOC_3_03_pointing_velocityApp.cpp in Sources */,
-				C6FAE67C17E04717006A4932 /* Mover.cpp in Sources */,
+				C680916A17EEC90A00AFD5FC /* Mover.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

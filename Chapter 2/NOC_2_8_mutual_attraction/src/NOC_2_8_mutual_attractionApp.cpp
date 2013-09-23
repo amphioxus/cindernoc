@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 2-08: Mutual attraction
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Mover.h"
@@ -13,17 +22,17 @@ class NOC_2_8_mutual_attractionApp : public AppNative {
     void keyDown( KeyEvent event );
 	void update();
 	void draw();
+    void resetMovers();
     
-    std::list<Mover> movers; // TODO: needs to be changed to pointer
+    std::list<Mover *> mMovers;
+    bool displayHistory = FALSE;
 };
 
 void NOC_2_8_mutual_attractionApp::setup()
 {
-    setFullScreen(TRUE);
+    setFullScreen(FALSE);
     setFrameRate(30.f);
-    for (int i = 0; i < 20; i++) {
-        movers.push_back( Mover() );
-    }
+    resetMovers();
 }  
 
 void NOC_2_8_mutual_attractionApp::mouseDown( MouseEvent event )
@@ -34,30 +43,50 @@ void NOC_2_8_mutual_attractionApp::keyDown(KeyEvent event) {
     if ( event.getChar() == 'f' ) {
         // Toggle between full-screen and window:
         setFullScreen( ! isFullScreen() );
-    }
+    } else if ( event.getChar() == 'h' ) {
+        // Toggle between drawing history trails or not:
+        displayHistory = !displayHistory ;
+    } else if (event.getChar() == 'x') {
+        resetMovers();
+    }    
 }
+
 
 void NOC_2_8_mutual_attractionApp::update()
 {
-    for (std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++) {        
-        for (std::list<Mover>::iterator itinner = movers.begin(); itinner != movers.end(); itinner++) {
-            if ( it != itinner ) {
-                ci::Vec2f force = itinner->attract( *it );
-                it->apply_force( force );
-                it->update();
+    // double loop: each mover needs to calculate attraction to all other movers, excluding itself
+    for (auto mo : mMovers) {
+        for (auto mi : mMovers) {            
+            if (mi != mo) {
+                ci::Vec2f force = mi->attract( mo );
+                mi->apply_force( force );
+                mi->update();
             }
-        }        
+        }
     }
 }
+
+
+void NOC_2_8_mutual_attractionApp::resetMovers(){
+    if (!mMovers.empty())
+        mMovers.clear();
+        
+    for (int i = 0; i < 20; i++) {
+        mMovers.push_back( new Mover() );
+    }
+}
+
 
 void NOC_2_8_mutual_attractionApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
-    
-    for (std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++) {
-        it->display();
+    for (auto m : mMovers) {
+        m->display();
+        if (displayHistory)
+            m->display_history();
     }
+
 }
 
 CINDER_APP_NATIVE( NOC_2_8_mutual_attractionApp, RendererGl )

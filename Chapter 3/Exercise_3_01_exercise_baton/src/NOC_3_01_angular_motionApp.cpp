@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 3-01: Angular motion
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 
@@ -20,7 +29,6 @@ class NOC_3_01_angular_motionApp : public AppNative {
 void NOC_3_01_angular_motionApp::setup()
 {
     setFrameRate(30.f);
-    
 }
 
 void NOC_3_01_angular_motionApp::mouseDown( MouseEvent event )
@@ -42,16 +50,15 @@ void NOC_3_01_angular_motionApp::draw()
     gl::pushMatrices();
     
     gl::translate( (Vec2f)app::getWindowCenter()   );
-    gl::rotate( toDegrees(mAngle) );
+    gl::rotate( toDegrees( mAngle) );
     gl::color(.4, .4, .4);
     gl::lineWidth(4.f);
     gl::drawLine(Vec2f(-50.f, 0), Vec2f(50.f, 0));
     
     gl::drawSolidCircle( Vec2f(-50.,0), 12.);
     gl::drawSolidCircle( Vec2f(50.,0), 12.);
-    gl::popMatrices();
     
-    
+    gl::popMatrices();    
 }
 
 CINDER_APP_NATIVE( NOC_3_01_angular_motionApp, RendererGl )

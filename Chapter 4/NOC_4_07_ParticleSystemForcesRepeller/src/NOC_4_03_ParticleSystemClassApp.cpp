@@ -1,3 +1,13 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 4-7: Particle Systems with Repeller object
+
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "ParticleSystem.h"

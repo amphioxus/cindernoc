@@ -1,8 +1,16 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 3-02: Angular motion with forces
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Mover.h"
 #include "Attractor.h"
-
 
 using namespace ci;
 using namespace ci::app;
@@ -21,8 +29,8 @@ public:
     void mouseUp( MouseEvent event );
     
     
-    vector<MoverRef> mMovers; // using shared pointer (from Nathanial Koch's examples)
-    vector<AttractorRef> mAttractors;
+    std::vector<Mover *> mMovers;
+    std::vector<Attractor *> mAttractors;
     
     ci::Vec2f mousePos;
 };
@@ -35,13 +43,12 @@ void NOC_3_02_forces_angular_motionApp::setup()
 {
     int numMovers = 10;
     for (int i = 0; i < numMovers; i++) {
-        auto m = MoverRef( new Mover(randFloat(0.5, 3), randFloat( getWindowWidth() ), randFloat( getWindowHeight() ) ) );
-        mMovers.push_back(m);
+        mMovers.push_back( new Mover(randFloat(0.5, 3), randFloat( getWindowWidth() ), randFloat( getWindowHeight() ) ) );
     }
     
     // add  attractors
-    mAttractors.push_back( AttractorRef( new Attractor() ) );
-    mAttractors.push_back( AttractorRef( new Attractor( ci::Vec2f (100.,100.), 25.0 ) ) );
+    mAttractors.push_back( new Attractor() );
+    mAttractors.push_back( new Attractor( ci::Vec2f (100.,100.), 25.0 ) );
 }
 
 void NOC_3_02_forces_angular_motionApp::mouseDown( MouseEvent event ) {
@@ -93,6 +100,7 @@ void NOC_3_02_forces_angular_motionApp::draw()
     gl::clear( Color( 0, 0, 0 ) );
     for (auto mover : mMovers) {
         mover->draw();
+        mover->draw_history();
     }
     
     for ( auto attractor : mAttractors) {

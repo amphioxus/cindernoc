@@ -7,109 +7,102 @@
 
 #include "Mover.h"
 
-// namespaces
-using namespace ci;
-
-
-Mover::Mover( ) {
-	mMass =  1.0f;
-    mLocation = Vec2f( randFloat(app::getWindowWidth()), randFloat(app::getWindowHeight()) );
-	mVelocity = Vec2f::zero();
-    mAcceleration = Vec2f::zero();
+// Default constructor
+Mover::Mover() {
+    
+    ci::Rand::randomize();
+    location.x = ci::Rand::randFloat( ci::app::getWindowWidth() );
+    location.y = ci::Rand::randFloat( ci::app::getWindowHeight() );
+    velocity.x = 0.;  velocity.y = 0.;
+    acceleration.x = 0;  acceleration.y = 0;
+    mMass = ci::Rand::randFloat(0.5, 2.);
+    mColor = ci::ColorA(1.0f, 0.5f, 0.25f, 0.3f);
 }
+
 
 Mover::Mover(float m, float x, float y) {
+    
+//    ci::Rand::randomize();
+    location.x = x; location.y =y;
+    velocity.x = 0.;  velocity.y = 0.;
+    acceleration.x = 0;  acceleration.y = 0;
     mMass = m;
-    mLocation = Vec2f(x, y);
+    
+//    mColor = ci::ColorA(0.8, .4, .4, .5);
+    mColor = ci::ColorA(1.0f, 0.5f, 0.25f, 0.3f);
 }
 
-
-void Mover::update( ci::Vec2f mousepos ) {
-    // first, save location for history trail:
-    mLocationHistory.push_back( mLocation );
-    if (mLocationHistory.size() > 100) {
-        mLocationHistory.pop_front();
+void Mover::update() {
+    mHistory.push_back(location); // remember position
+    if (mHistory.size() > 200){
+//        mHistory.pop_back();
+        mHistory.pop_front();
     }
-    ci::Vec2f dir = mousepos - mLocation;
-    dir.safeNormalize();
-    mAcceleration = dir;
-    mVelocity += mAcceleration;
-    mVelocity.limit( topspeed );
-    mLocation += mVelocity;
     
+    velocity += acceleration;
+    location += velocity;
     
-    mAcceleration *= 0;
+    acceleration *= 0; // set acceleration to zero after each cycle
+}
+
+ci::Vec2f Mover::attract(Mover * m) {
     
+    ci::Vec2f force = m->location - location;     // Calculate direction of force
+    float distance = force.length();             // Distance between objects
+    // Limiting the distance to eliminate "extreme" results for very close or very far objects:
+    if ( distance < 5.0 )
+        distance = 5.0;
+    else if (distance > 25.0)
+        distance = 25.0;
+    
+    float strength = (mG * mMass * m->mMass) / (distance * distance); // Calculate gravitional force magnitude
+    
+    return force.safeNormalized() * strength;   // Get force vector --> magnitude * direction
 }
 
 
-void Mover::draw( ) {
-	Rectf rect = Rectf( -30, -10, 30, 10 );
-    float heading = toDegrees( atan2f(mVelocity.y, mVelocity.x) );
-    
-    gl::enableAlphaBlending();
-    gl::color(0.68, 0.68, 0.68, 0.4);
-    
-    gl::pushMatrices();
-    
-    gl::translate(mLocation);
-    gl::rotate(heading);
-    
-    gl::drawSolidRect(rect);
-    
-    gl::color(0, 0, 0, 1.);
-    gl::lineWidth(2.0);
-    gl::drawStrokedRect(rect);
-    
-    gl::popMatrices();
-    
-    
-    gl::disableAlphaBlending();
+void Mover::apply_force(ci::Vec2f force) {
+    force /= mMass;
+    acceleration += force;
 }
 
-void Mover::draw_history() {
-    gl::enableAlphaBlending();
-    ci::gl::color( ci::ColorA(.8f, .6f, .6f, 0.6f) );
-    
-    for (ci::Vec2f dot : mLocationHistory) {
-        gl::drawSolidCircle(dot, 3.0);
-    }
-    gl::disableAlphaBlending();
-}
-
-
-void Mover::applyForce(Vec2f force) {
-    Vec2f f = force / mMass;
-    mAcceleration += f;
-}
 
 void Mover::checkEdges() {
     
-    if (mLocation.x > app::getWindowWidth() ) {
-        mLocation.x = 0;
+    if (location.x > ci::app::getWindowWidth() ) {
+        location.x = ci::app::getWindowWidth();
+        velocity.x *= -1;
     }
-    else if (mLocation.x < 0) {
-        mLocation.x = app::getWindowWidth();
+    else if (location.x < 0) {
+        location.x = 0;
+        velocity.x *= -1;
     }
     
-    if (mLocation.y > app::getWindowHeight() ) {
-        mLocation.y = 0;
-    }
-    else if (mLocation.y < 0) {
-        mLocation.y = app::getWindowHeight();
+    if (location.y > ci::app::getWindowHeight() ) {
+        location.y = ci::app::getWindowHeight();
+        velocity.y *= -1;
     }
 }
 
 
+void Mover::display() {
+    // Turn on additive blending
+    ci::gl::enableAlphaBlending();
+    ci::gl::color( mColor );
+    ci::gl::drawSolidCircle(location, mMass * 16.f);
+    ci::gl::disableAlphaBlending();
+}
 
-Vec2f Mover::attract(MoverRef m) {
-    float G = 0.4;
-    Vec2f force = mLocation - m->mLocation;
-    float distance = force.length();
-    distance = math<float>::clamp(distance, 5.0, 25.0);
-    force.safeNormalize();
+
+void Mover::display_history() {
+    // Turn on additive blending
+    ci::gl::enableAlphaBlending();
+    ci::gl::color( ci::ColorA(.8f, .6f, .6f, 0.6f) );
+    // iterate through history of each mover
     
-    float strength = (G * mMass * m->mMass) / (distance * distance);
-    force *= strength;
-    return force;
+    for (auto it : mHistory) {
+        ci::gl::drawSolidCircle( ci::Vec2f (it.x, it.y), 1.5);
+    }
+
+    ci::gl::disableAlphaBlending();
 }

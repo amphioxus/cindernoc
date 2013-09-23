@@ -22,7 +22,7 @@ public:
     bool mRollover = FALSE;
     bool mClicked = FALSE;
     
-    ci::Vec2f attract(Mover m);
+    ci::Vec2f attract(Mover * m);
     void hover( ci::Vec2f mousepos );
     void clicked( ci::Vec2f mousepos );
     void mouseup();

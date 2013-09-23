@@ -28,9 +28,9 @@ class NOC_2_5_fluidresistanceApp : public AppNative {
 	void draw();
     void reset_movers();
     void clear_movers();
-    // TODO change to pointers:
-    Liquid liquid;
-    std::list<Mover> movers; // list to store mover objects
+
+    Liquid * mLiquid;
+    std::vector<Mover *> mMovers; // vector to store mover objects
     
     Font				mFont;
 	gl::TextureFontRef	mTextureFont;
@@ -44,7 +44,7 @@ void NOC_2_5_fluidresistanceApp::prepareSettings(Settings *settings) {
 void NOC_2_5_fluidresistanceApp::setup()
 {
     // place liquid at the bottom half of the window
-    liquid = Liquid(0, getWindowHeight()/2., getWindowWidth(), getWindowHeight()/2., 0.1);
+    mLiquid = new Liquid(0, getWindowHeight()/2., getWindowWidth(), getWindowHeight()/2., 0.1);
     // Enter Movers:
     reset_movers();
     
@@ -63,37 +63,37 @@ void NOC_2_5_fluidresistanceApp::mouseDown( MouseEvent event )
 
 void NOC_2_5_fluidresistanceApp::resize() {
     
-    liquid.resize(0, getWindowHeight()/2., getWindowWidth(), getWindowHeight()/2.);
+    mLiquid->resize(0, getWindowHeight()/2., getWindowWidth(), getWindowHeight()/2.);
 }
 
 void NOC_2_5_fluidresistanceApp::update()
-{
-    for (std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++) {
+{    
+    for (auto m : mMovers) {
         // check whether we are in fluid:
-        if (liquid.contains( *it )) {
+        if (mLiquid->contains(m)) {
             // mover is in liquid, calculate drag
-            ci::Vec2f drag = liquid.drag( *it );
+            ci::Vec2f drag = mLiquid->drag( m );
             // and apply it to mover:
-            it->apply_force( drag );
+            m->apply_force( drag );
         }
-        ci::Vec2f gravity (0, 0.1 * it->mMass );
-        it->apply_force( gravity );
+        ci::Vec2f gravity (0, 0.1 * m->mMass );
+        m->apply_force( gravity );
         
-        it->update();               
+        m->update();        
     }
 }
+
 
 void NOC_2_5_fluidresistanceApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
-    
-    for (std::list<Mover>::iterator it = movers.begin(); it != movers.end(); it++) {
-        it->display();
-        it->checkEdges();
+    for (auto mover : mMovers) {
+        mover->display();
+        mover->checkEdges();
     }
-    
-    liquid.display();
+
+    mLiquid->display();
     
     // show text:
     gl::color(1., 1., 1.);
@@ -104,16 +104,14 @@ void NOC_2_5_fluidresistanceApp::draw()
 
 void NOC_2_5_fluidresistanceApp::reset_movers() {
      
-    const int amount = 10;
-    for (int i = 0; i < amount; i++ ) {
-        
-        movers.push_back( Mover( ci::randFloat(0.5, 3.), (getWindowWidth()/float(amount+1)) + (i*getWindowWidth()/float(amount+1)), 0 ) );
-    }
-    
+    const int amount = 10; // how many movers?
+    for (int i = 0; i < amount; i++ ) {        
+        mMovers.push_back( new Mover( ci::randFloat(0.5, 3.), (getWindowWidth()/float(amount+1)) + (i*getWindowWidth()/float(amount+1)), 0 ) );
+    }    
 }
 
 void NOC_2_5_fluidresistanceApp::clear_movers() {
-    movers.clear();
+    mMovers.clear();
 }
 
 

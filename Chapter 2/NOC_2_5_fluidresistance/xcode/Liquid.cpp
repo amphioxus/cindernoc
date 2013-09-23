@@ -22,9 +22,9 @@ Liquid::Liquid(float x, float y, float w, float h, float c) {
     mColor = ci::ColorA(0.2f, 0.49f, 0.62f, 0.5f);
 }
 
-bool Liquid::contains(Mover m) {
+bool Liquid::contains(Mover * m) {
     
-    ci::Vec2f l = m.location;
+    ci::Vec2f l = m->location;
     if (l.x > mX && l.x < mX + mW && l.y > mY && l.y < mY + mH) {
         return TRUE;
     } else {
@@ -34,18 +34,17 @@ bool Liquid::contains(Mover m) {
 }
 
 
-ci::Vec2f Liquid::drag(Mover m) {
+ci::Vec2f Liquid::drag(Mover * m) {
     
     // Magnitude is coefficient * speed squared
-    float speed = m.velocity.length();
+    float speed = m->velocity.length();
     float dragMagnitude = mC * speed * speed;
     
     // Direction is inverse of velocity
-    ci::Vec2f dragForce = m.velocity.inverse();
+    ci::Vec2f dragForce = m->velocity.inverse();
     
     // Scale according to magnitude and return
     return dragForce.safeNormalized() * dragMagnitude;
-
 }
 
 void Liquid::resize(float x, float y, float w, float h) {
