@@ -1,3 +1,12 @@
+// The Nature of Code
+// Daniel Shiffman
+//
+// Examples ported to Cinder ( http://libcinder.org )
+//
+// Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+//
+// Example 5-1 solved: Box2D Exercise (Boxes WITH Box2D integration)
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Box2d.h"
@@ -15,7 +24,7 @@ class NOC_5_1_box2d_exercise_solvedApp : public AppNative {
 	void update();
 	void draw();
     
-    b2Vec2 gravity = b2Vec2(0.0f, 3.f);
+    b2Vec2 gravity = b2Vec2(0.0f, 10.f);
     b2World mWorld = b2World( gravity ); // set up a Box2D world
     
     std::vector<Box *> mBoxes; // container for our boxes
@@ -24,7 +33,7 @@ class NOC_5_1_box2d_exercise_solvedApp : public AppNative {
 
 void NOC_5_1_box2d_exercise_solvedApp::setup()
 {
-    setFrameRate(30.);
+    setFrameRate(60.);
 }
 
 void NOC_5_1_box2d_exercise_solvedApp::mouseDown( MouseEvent event )

@@ -1,2 +1,31 @@
 syntax: glob
 .DS_Store
+
+# Backup files left behind by the Emacs editor.
+*~
+ 
+# Lock files used by the Emacs editor.
+.\#*
+ 
+# Temporary files used by the vim editor.
+.*.swp
+ 
+# Temporary files used by TestMate
+._*
+ 
+# build directories
+**/build/*
+build/*
+ 
+# XCode user data
+**.pbxuser
+**.mode?v?
+**.perspectivev?
+ 
+# documentation
+**.docset/*
+ 
+# for those crazies using svn and hg at the same time
+*.svn*
+
+Chapter 5/openGLtest

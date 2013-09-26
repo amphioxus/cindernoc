@@ -41,7 +41,7 @@ Surface::Surface( std::vector<ci::Vec2f> surface, b2World &world) {
     
     // Attach the shape to the body with the fixture
     mBody->CreateFixture( &fixtureDef );
-
+    
     
 }
 

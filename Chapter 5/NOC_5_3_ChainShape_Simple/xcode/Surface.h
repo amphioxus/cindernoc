@@ -15,6 +15,7 @@ namespace box2d
 {
 
 class Surface {
+    
     std::vector<ci::Vec2f> mSurfaceVerts;
     
 public:

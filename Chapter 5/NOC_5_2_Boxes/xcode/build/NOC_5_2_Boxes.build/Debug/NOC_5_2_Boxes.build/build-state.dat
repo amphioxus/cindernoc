@@ -5,54 +5,54 @@ cCheck dependencies
 cProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/Debug/NOC_5_2_Boxes.app/Contents/Info.plist" Info.plist
 cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_5_2_Boxes.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_2_Boxes_Prefix-gqzqjgtjutvrdhgpcdflkdmexkdo/NOC_5_2_Boxes_Prefix.pch.pth NOC_5_2_Boxes_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/NOC_5_2_BoxesApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../src/NOC_5_2_BoxesApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CollideEdge.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CollidePolygon.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2DynamicTree.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CircleShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2BlockAllocator.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Timer.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2Timer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PolygonShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Box.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/Box.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Contact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Draw.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2Draw.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2ChainShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CollidePolygon.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Distance.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2BroadPhase.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/NOC_5_2_BoxesApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../src/NOC_5_2_BoxesApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CollideCircle.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Collision.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Distance.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2ChainShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2EdgeShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CollideEdge.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CircleShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2DynamicTree.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2TimeOfImpact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Math.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2Math.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Settings.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Draw.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2Draw.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Body.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2EdgeShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2BlockAllocator.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PolygonShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2ContactManager.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Body.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Settings.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2StackAllocator.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Math.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Common/b2Math.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Fixture.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2WorldCallbacks.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Island.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2World.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2World.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2ChainAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2WorldCallbacks.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2ChainAndPolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2ChainAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2CircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Contact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2ContactSolver.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2EdgeAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2EdgeAndPolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PolygonAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2DistanceJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2FrictionJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Joint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PulleyJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2GearJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PrismaticJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PolygonAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2FrictionJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2EdgeAndPolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2EdgeAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2MouseJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2RopeJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Boundary.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/Boundary.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Rope.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Rope/b2Rope.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2WeldJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Box.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/Box.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2WheelJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PulleyJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2PrismaticJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2RevoluteJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2RopeJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2Rope.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Rope/b2Rope.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2WheelJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/b2WeldJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Boundary.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/Boundary.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Scale.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/Scale.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/Debug/NOC_5_2_Boxes.app/Contents/MacOS/NOC_5_2_Boxes" normal i386
 cTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/Debug/NOC_5_2_Boxes.app"
@@ -4518,7 +4518,7 @@ t1380064077
 s2732
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/Debug/NOC_5_2_Boxes.app
-t1380061804
+t1380075989
 s102
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/Debug/NOC_5_2_Boxes.app/Contents/Info.plist
@@ -4526,8 +4526,8 @@ t1379997696
 s1465
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/Debug/NOC_5_2_Boxes.app/Contents/MacOS/NOC_5_2_Boxes
-t1380061803
-s3189380
+t1380075989
+s3182568
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/Debug/NOC_5_2_Boxes.app/Contents/PkgInfo
 t1379997696
@@ -4538,8 +4538,8 @@ t1379997696
 s459637
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Boundary.o
-t1380053736
-s214984
+t1380075988
+s180940
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Box.o
 t1380053364
@@ -4551,7 +4551,7 @@ t1379997762
 s7877
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/NOC_5_2_BoxesApp.o
-t1380061802
+t1380075988
 s1879052
 
 N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Scale.o
@@ -4959,7 +4959,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies15e2655181f2b741^b9a7135281f2b741^---0#1#0#--18"Check dependencies36"C7DF6EEC-02CD-4FE4-B676-0D91E2F6F7F0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies848090dbe5f3b741^d17713dce5f3b741^---0#1#0#--18"Check dependencies36"9D1223AC-D2AD-4A36-A08C-4056216AA4D4-
 
 CCompileC ./build/NOC_5_2_Boxes.build/Debug/NOC_5_2_Boxes.build/Objects-normal/i386/Boundary.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_2_Boxes/xcode/Boundary.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s401768786.129127
