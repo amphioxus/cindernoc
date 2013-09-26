@@ -29,3 +29,4 @@ build/*
 *.svn*
 
 Chapter 5/openGLtest
+Chapter 1/NOC_1_1_bouncingball_novectors/xcode/build

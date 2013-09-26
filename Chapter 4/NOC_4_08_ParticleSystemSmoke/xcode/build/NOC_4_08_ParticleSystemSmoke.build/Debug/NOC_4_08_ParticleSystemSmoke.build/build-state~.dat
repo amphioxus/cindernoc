@@ -1,275 +1,0 @@
-TNOC_4_08_ParticleSystemSmoke
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Info.plist" Info.plist
-cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/CinderApp.icns
-cCpResource texture.png ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/texture.png
-cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.pth NOC_4_08_ParticleSystemSmoke_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c0000000051BB7BB600000000000000AA
-t1371241398
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-c00000000510CCF6400000000000024F0
-t1359794020
-s9456
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000005146122E0000000000024DD8
-t1363546670
-s151000
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-c000000005146122E00000000000060B4
-t1363546670
-s24756
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c00000000510CCF6400000000000001E5
-t1359794020
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000005146122E000000000000E9A8
-t1363546670
-s59816
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Cinder.h
-c0000000051780B7C0000000000000CEB
-t1366821756
-s3307
-
-N/Developer/cinder_0.8.5_mac/include/cinder/CinderMath.h
-c0000000051780B7C0000000000001F9E
-t1366821756
-s8094
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Matrix.h
-c0000000051780B7C0000000000000EDD
-t1366821756
-s3805
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Quaternion.h
-c0000000051780B7D0000000000005499
-t1366821757
-s21657
-
-N/Developer/cinder_0.8.5_mac/include/cinder/Vector.h
-c0000000051780B7D000000000000AD7C
-t1366821757
-s44412
-
-N/Developer/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
-c0000000051780B7D0000000000002262
-t1366821757
-s8802
-
-N/Developer/cinder_0.8.5_mac/include/cinder/gl/gl.h
-c0000000051780B7E0000000000006469
-t1366821758
-s25705
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../resources/CinderApp.icns
-c00000000523F7DD30000000000070375
-t1379892691
-s459637
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp
-c00000000523F7F5C00000000000002D2
-t1379893084
-s722
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Info.plist
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/MacOS/NOC_4_08_ParticleSystemSmoke
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/PkgInfo
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/CinderApp.icns
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/texture.png
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmoke.LinkFileList
-c00000000523F7F6600000000000001AF
-t1379893094
-s431
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.o
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.o
-t2
-s0
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/NOC_4_08_ParticleSystemSmoke_Prefix.pch
-c00000000523F7DD3000000000000012D
-t1379892691
-s301
-i<Cocoa/Cocoa.h>
-i"cinder/Cinder.h"
-i"cinder/app/AppBasic.h"
-i"cinder/gl/gl.h"
-i"cinder/CinderMath.h"
-i"cinder/Matrix.h"
-i"cinder/Vector.h"
-i"cinder/Quaternion.h"
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp
-c00000000523F7E5C0000000000000374
-t1379892828
-s884
-
-N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/texture.png
-c0000000050942DAE0000000000000DE2
-t1351888302
-s3554
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c00000000501321460000000000006730
-t1343430982
-s26416
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c00000000514617870000000000081CB0
-t1363548039
-s531632
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c00000000523739B3000000000002DAD0
-t1379350963
-s187088
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c00000000523739B400000000004A2E10
-t1379350964
-s4861456
-
-N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.pth
-t2
-s0
-
-NInfo.plist
-c00000000523F7DD30000000000000462
-t1379892691
-s1122
-
-CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp"
-r0
-
-CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies04018ee6b6efb741^5bef97e6b6efb741^---0#1#0#--18"Check dependencies36"D858B6F3-9A4F-4E79-9D3F-9BB99F4E3FB4-
-
-CCompileC ./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s401585898.544232
-e401585899.488267
-r0
-xCompileC
-x./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.o
-x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp:18:17: error: variable has incomplete type 'gl::Texture'
-o    gl::Texture texture = loadImage( "texture.png" );
-o                ^
-o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../../../../../include/cinder/gl/gl.h:63:25: note: forward declaration of 'cinder::gl::Texture'
-o                 class VboMesh; class Texture;
-o                                      ^
-o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp:33:15: error: use of undeclared identifier 'texture'
-o    gl::draw( texture );
-o              ^
-o2 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cppc66e8beab6efb741^3b017debb6efb741^-770"/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp:18:17: error: variable has incomplete type 'gl::Texture'    gl::Texture texture = loadImage( "texture.png" );                ^/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../../../../../include/cinder/gl/gl.h:63:25: note: forward declaration of 'cinder::gl::Texture'                 class VboMesh; class Texture;                                      ^/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp:33:15: error: use of undeclared identifier 'texture'    gl::draw( texture );              ^2 errors generated.-0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp0000000000000000^4025"CompileC ./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.o ../src/NOC_4_08_ParticleSystemSmokeApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../src/NOC_4_08_ParticleSystemSmokeApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/NOC_4_08_ParticleSystemSmokeApp.o"36"4AA7E620-CF7F-44B8-AA37-DE3ED11EC7D6-
-
-CCompileC ./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s401585898.544240
-e401585899.387722
-r0
-xCompileC
-x./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.o
-x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp:9:
-o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.h:12:10: fatal error: 'Particle.h' file not found
-o#include "Particle.h"
-o         ^
-o1 error generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cppa46e8beab6efb741^313f63ebb6efb741^-333"In file included from /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp:9:/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.h:12:10: fatal error: 'Particle.h' file not found#include "Particle.h"         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@27"'Particle.h' file not found-401585899#18446744073709551615#0#1(2@129"In file included from /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp:9:-401585899#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@122"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp0000000000000000^8#9#8#9#123#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@120"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.h0000000000000000^11#9#11#9#187#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@122"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp0000000000000000^3909"CompileC ./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.o ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/ParticleSystem.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/Objects-normal/i386/ParticleSystem.o"36"CB6E98AD-B05F-4FA5-9D7A-40FD3DD6900B-
-
-CCpResource ../resources/CinderApp.icns ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/CinderApp.icns
-s401585894.608225
-e401585894.611203
-r1
-xCpResource
-x../resources/CinderApp.icns
-x./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/CinderApp.icns48c59be6b6efb741^cd779ce6b6efb741^---0#0#0#-19%DVTDocumentLocation2@184"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/CinderApp.icns000000000080d041^597"CpResource ../resources/CinderApp.icns ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/CinderApp.icns    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/../resources/CinderApp.icns" "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources"36"A94BA6DF-01EE-43D8-82F2-4849F61B2E44-
-
-CCpResource texture.png ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/texture.png
-s401585894.608234
-e401585894.611954
-r1
-xCpResource
-xtexture.png
-x./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/texture.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/texture.png26c59be6b6efb741^e3a89ce6b6efb741^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/texture.png000000000080d041^562"CpResource texture.png ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources/texture.png    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/texture.png" "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Resources"36"E797CB80-E5E7-4F5E-BDE2-9B0AF38B507E-
-
-CLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/MacOS/NOC_4_08_ParticleSystemSmoke" normal i386
-r0
-
-CProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Info.plist" Info.plist
-s401585894.597774
-e401585894.600613
-r1
-xProcessInfoPlistFile
-x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist161599e6b6efb741^20d499e6b6efb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/Info.plist0000000000000000^594"ProcessInfoPlistFile ./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app/Contents/Info.plist"36"CD7DEF09-1D17-4EF7-9B49-52734C81916D-
-
-CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_4_08_ParticleSystemSmoke-hdpkmzobhpndiibuibweveoceymh/Index/PrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-btmoqxdwpzylssdabduaccfcncfx_ast/NOC_4_08_ParticleSystemSmoke_Prefix.pch.pth NOC_4_08_ParticleSystemSmoke_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.pth NOC_4_08_ParticleSystemSmoke_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s401585894.620143
-e401585898.537504
-r1
-xProcessPCH++
-x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.pth
-xNOC_4_08_ParticleSystemSmoke_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Precompile NOC_4_08_ParticleSystemSmoke_Prefix.pch94db9ee6b6efb741^9a9989eab6efb741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%204/NOC_4_08_ParticleSystemSmoke/xcode/NOC_4_08_ParticleSystemSmoke_Prefix.pch0000000000000000^3814"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.pth NOC_4_08_ParticleSystemSmoke_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/NOC_4_08_ParticleSystemSmoke-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/build/Debug/include" -I../../../../../boost "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/NOC_4_08_ParticleSystemSmoke.build/Debug/NOC_4_08_ParticleSystemSmoke.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/NOC_4_08_ParticleSystemSmoke_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_4_08_ParticleSystemSmoke_Prefix-fofweaogxfnoxqedqjaphnanqozh/NOC_4_08_ParticleSystemSmoke_Prefix.pch.d36"45FDE427-E421-428E-8AAF-F2E7FE555020-
-
-CTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 4/NOC_4_08_ParticleSystemSmoke/xcode/./build/Debug/NOC_4_08_ParticleSystemSmoke.app"
-r0
-
