@@ -1,0 +1,1143 @@
+TNOC_5_4_Polygons
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Info.plist" Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/NOC_5_4_Polygons.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.pth NOC_5_4_Polygons_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BB7BB600000000000000AA
+t1371241398
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000510CCF6400000000000024F0
+t1359794020
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005146122E0000000000024DD8
+t1363546670
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000005146122E00000000000060B4
+t1363546670
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000510CCF6400000000000001E5
+t1359794020
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000005146122E000000000000E9A8
+t1363546670
+s59816
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Developer/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Developer/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Developer/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Developer/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp
+c00000000524359C300000000000011B4
+t1380145603
+s4532
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp
+c00000000524359C30000000000000C6B
+t1380145603
+s3179
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp
+c00000000524359C30000000000000D81
+t1380145603
+s3457
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp
+c00000000524359C3000000000000267C
+t1380145603
+s9852
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp
+c00000000524359C30000000000000CBA
+t1380145603
+s3258
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp
+c00000000524359C300000000000011A2
+t1380145603
+s4514
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp
+c00000000524359C30000000000003F6B
+t1380145603
+s16235
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp
+c00000000524359C30000000000002336
+t1380145603
+s9014
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp
+c00000000524359C3000000000000197A
+t1380145603
+s6522
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp
+c00000000524359C300000000000035E1
+t1380145603
+s13793
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp
+c00000000524359C30000000000004420
+t1380145603
+s17440
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp
+c00000000524359C30000000000002F7B
+t1380145603
+s12155
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp
+c00000000524359C300000000000013FA
+t1380145603
+s5114
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Draw.cpp
+c00000000524359C300000000000004ED
+t1380145603
+s1261
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Math.cpp
+c00000000524359C30000000000000AFF
+t1380145603
+s2815
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp
+c00000000524359C30000000000000574
+t1380145603
+s1396
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp
+c00000000524359C30000000000000854
+t1380145603
+s2132
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Timer.cpp
+c00000000524359C30000000000000942
+t1380145603
+s2370
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp
+c00000000524359C30000000000000932
+t1380145603
+s2354
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp
+c00000000524359C30000000000000941
+t1380145603
+s2369
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp
+c00000000524359C30000000000000857
+t1380145603
+s2135
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp
+c00000000524359C30000000000001D50
+t1380145603
+s7504
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp
+c00000000524359C30000000000005BFE
+t1380145603
+s23550
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp
+c00000000524359C3000000000000082D
+t1380145603
+s2093
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp
+c00000000524359C3000000000000083B
+t1380145603
+s2107
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp
+c00000000524359C30000000000000857
+t1380145603
+s2135
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp
+c00000000524359C3000000000000086A
+t1380145603
+s2154
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp
+c00000000524359C30000000000001D83
+t1380145603
+s7555
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp
+c00000000524359C30000000000001BE8
+t1380145603
+s7144
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp
+c00000000524359C30000000000002F9B
+t1380145603
+s12187
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.cpp
+c00000000524359C300000000000013CD
+t1380145603
+s5069
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp
+c00000000524359C300000000000015E3
+t1380145603
+s5603
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp
+c00000000524359C30000000000004531
+t1380145603
+s17713
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp
+c00000000524359C300000000000022AA
+t1380145603
+s8874
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp
+c00000000524359C3000000000000356B
+t1380145603
+s13675
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp
+c00000000524359C300000000000019CB
+t1380145603
+s6603
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp
+c00000000524359C30000000000002381
+t1380145603
+s9089
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp
+c00000000524359C30000000000002AED
+t1380145603
+s10989
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp
+c00000000524359C30000000000002E11
+t1380145603
+s11793
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.cpp
+c00000000524359C30000000000001C70
+t1380145603
+s7280
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp
+c00000000524359C30000000000002176
+t1380145603
+s8566
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp
+c00000000524359C30000000000004304
+t1380145603
+s17156
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2World.cpp
+c00000000524359C30000000000007783
+t1380145603
+s30595
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp
+c00000000524359C30000000000000661
+t1380145603
+s1633
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Rope/b2Rope.cpp
+c00000000524359C3000000000000142B
+t1380145603
+s5163
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../resources/CinderApp.icns
+c00000000524359C30000000000070375
+t1380145603
+s459637
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp
+c0000000052435B7A0000000000000265
+t1380146042
+s613
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/MacOS/NOC_5_4_Polygons
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/Boundary.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_Polygons.LinkFileList
+c0000000052435BC30000000000001F3F
+t1380146115
+s7999
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/Surface.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Body.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainAndCircleContact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainAndPolygonContact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleContact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ContactManager.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ContactSolver.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DistanceJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Draw.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndCircleContact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2FrictionJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2GearJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Island.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Joint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Math.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2MouseJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonContact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonShape.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PrismaticJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PulleyJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2RevoluteJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Rope.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2RopeJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2StackAllocator.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Timer.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WheelJoint.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2World.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WorldCallbacks.o
+t2
+s0
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Boundary.cpp
+c0000000052435BBB00000000000005C9
+t1380146107
+s1481
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/NOC_5_4_Polygons_Prefix.pch
+c00000000524359C3000000000000012D
+t1380145603
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Surface.cpp
+c0000000052426F6B00000000000005BB
+t1380085611
+s1467
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000501321460000000000006730
+t1343430982
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000514617870000000000081CB0
+t1363548039
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000523739B3000000000002DAD0
+t1379350963
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000523739B400000000004A2E10
+t1379350964
+s4861456
+
+N/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000524359C30000000000000462
+t1380145603
+s1122
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Draw.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Math.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Timer.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2World.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Rope/b2Rope.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Boundary.cpp"
+r0
+
+CBuild AST from "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Surface.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfd4a834393f3b741^056fe44393f3b741^---0#1#0#--18"Check dependencies36"FD017E9A-AB98-4D6A-8271-FD454D1BBF7E-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/Boundary.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Boundary.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.014140
+e401838925.760732
+r0
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp:4:
+o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Boundary.h:12:10: fatal error: 'Scale.h' file not found
+o#include "Scale.h"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cppefc9034c93f3b741^cba0c24d93f3b741^-309"In file included from /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp:4:/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Boundary.h:12:10: fatal error: 'Scale.h' file not found#include "Scale.h"         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@24"'Scale.h' file not found-401838925#18446744073709551615#0#1(2@129"In file included from /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp:4:-401838925#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@113"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/src/NOC_5_4_PolygonsApp.cpp0000000000000000^3#9#3#9#88#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@102"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/Boundary.h0000000000000000^11#9#11#9#155#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@122"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp0000000000000000^3507"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.o ../src/NOC_5_4_PolygonsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../src/NOC_5_4_PolygonsApp.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/NOC_5_4_PolygonsApp.o"36"F4DD8E82-E48D-4446-93CE-E729E845DC61-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/Surface.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/Surface.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590862
+e401838924.065632
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp8d96974a93f3b741^03cc104c93f3b741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp0000000000000000^3541"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.o ../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BlockAllocator.o"36"120F6656-F5EC-4452-B918-3FF45D3C1A65-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Body.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590703
+e401838924.073752
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cppd26f974a93f3b741^3be0124c93f3b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp0000000000000000^3523"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.o ../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2BroadPhase.o"36"A3C35052-2B13-4CB0-B6DD-3EFA282FD0A7-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainAndPolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838925.516228
+e401838926.571557
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp1650844d93f3b741^de3ecb4e93f3b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp0000000000000000^3537"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.o ../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ChainShape.o"36"D95F0437-032C-4EED-9C01-23CF0909A87D-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838925.616054
+e401838926.571570
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cppfbcc9d4d93f3b741^88bccd4e93f3b741^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp0000000000000000^3543"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.o ../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CircleShape.o"36"5D6600DF-C1C6-4E36-87C8-F20A7E3D1D28-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.067029
+e401838925.557253
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp094e114c93f3b741^16a78e4d93f3b741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp0000000000000000^3541"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.o ../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideCircle.o"36"EC1DB971-7568-4668-909E-DFA3D617BBF5-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.075146
+e401838925.615746
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cppd463134c93f3b741^aea09d4d93f3b741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp0000000000000000^3529"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.o ../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollideEdge.o"36"17342D18-0ECC-4F7D-8CEC-5C9B2A74AF73-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.076922
+e401838925.513934
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp75ca134c93f3b741^1497834d93f3b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp0000000000000000^3547"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.o ../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2CollidePolygon.o"36"B022EC01-2E02-42CB-ADE8-C4AC433E6331-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.118803
+e401838925.546259
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cppb4921e4c93f3b741^84d68b4d93f3b741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp0000000000000000^3517"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.o ../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Collision.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Collision.o"36"AA3E1C85-38F1-4CA1-8049-EF6EAE42A5A9-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590806
+e401838924.116224
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cppdd78974a93f3b741^ddcf1d4c93f3b741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp0000000000000000^3521"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.o ../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Contact.o"36"C86BB5DE-37D4-4E90-832C-6E0228D8168C-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ContactManager.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2ContactSolver.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.118820
+e401838925.615228
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cppd5921e4c93f3b741^527f9d4d93f3b741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp0000000000000000^3511"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.o ../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2Distance.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Distance.o"36"788433D6-9414-4FB2-90B8-1EBF6006E27F-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DistanceJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Draw.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Draw.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.119045
+e401838925.614869
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp919a1e4c93f3b741^be669d4d93f3b741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp0000000000000000^3529"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.o ../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2DynamicTree.o"36"372B1A85-4149-44A2-9105-1801EA9CADC5-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590767
+e401838924.075615
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cppfb79974a93f3b741^705b134c93f3b741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp0000000000000000^3605"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.o ../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeAndPolygonContact.o"36"43779E4C-E906-48E8-AEB3-D7D1E87BDC39-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838925.616047
+e401838926.571553
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cppeacc9d4d93f3b741^4b39cb4e93f3b741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp0000000000000000^3531"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.o ../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2EdgeShape.o"36"6312A720-F492-42BE-B1CA-83A72B23A312-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590923
+e401838924.116004
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp639c974a93f3b741^a7cc1d4c93f3b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp0000000000000000^3503"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.o ../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Fixture.o"36"CCAC887F-4F2F-425A-882E-07C5833E312F-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2FrictionJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2GearJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Island.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Joint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Math.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Math.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2MouseJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590754
+e401838924.115775
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cppef70974a93f3b741^5da31d4c93f3b741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp0000000000000000^3617"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.o ../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonAndCircleContact.o"36"0A6ABA58-E9BC-4A3E-8A48-39C6DC227E9E-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonContact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PolygonShape.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PrismaticJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2PulleyJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2RevoluteJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Rope.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Rope/b2Rope.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2RopeJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590738
+e401838924.012757
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cppce70974a93f3b741^2043034c93f3b741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp0000000000000000^3505"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.o ../blocks/Box2D/src/Box2D/Common/b2Settings.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Settings.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Settings.o"36"72F89EF5-70AE-41CD-B9A5-3778EF0CFF48-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2StackAllocator.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838924.139582
+e401838925.614902
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:200:12: warning: unused variable 'axisA' [-Wunused-variable]
+o                                b2Vec2 axisA = b2MulT(xfA.q,  m_axis);
+o                                       ^
+o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:201:12: warning: unused variable 'axisB' [-Wunused-variable]
+o                                b2Vec2 axisB = b2MulT(xfB.q, -m_axis);
+o                                       ^
+o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:218:12: warning: unused variable 'axisB' [-Wunused-variable]
+o                                b2Vec2 axisB = b2MulT(xfB.q, -normal);
+o                                       ^
+o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:232:12: warning: unused variable 'axisA' [-Wunused-variable]
+o                                b2Vec2 axisA = b2MulT(xfA.q, -normal);
+o                                       ^
+o4 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp73f1234c93f3b741^336b9d4d93f3b741^-1230"/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:200:12: warning: unused variable 'axisA' [-Wunused-variable]                                b2Vec2 axisA = b2MulT(xfA.q,  m_axis);                                       ^/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:201:12: warning: unused variable 'axisB' [-Wunused-variable]                                b2Vec2 axisB = b2MulT(xfB.q, -m_axis);                                       ^/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:218:12: warning: unused variable 'axisB' [-Wunused-variable]                                b2Vec2 axisB = b2MulT(xfB.q, -normal);                                       ^/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp:232:12: warning: unused variable 'axisA' [-Wunused-variable]                                b2Vec2 axisA = b2MulT(xfA.q, -normal);                                       ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@23"Unused variable 'axisA'-401838925#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@137"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp0000000000000000^199#11#199#11#5513#0#19"Unused Entity Issue--2@23"Unused variable 'axisB'-401838925#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp0000000000000000^200#11#200#11#5557#0#19"Unused Entity Issue--2@23"Unused variable 'axisB'-401838925#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp0000000000000000^217#11#217#11#6014#0#19"Unused Entity Issue--2@23"Unused variable 'axisA'-401838925#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@137"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp0000000000000000^231#11#231#11#6368#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@146"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp0000000000000000^3535"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.o ../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2TimeOfImpact.o"36"18AEFB10-D6AE-4160-9128-9A503E75C784-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2Timer.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Common/b2Timer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838922.590821
+e401838924.137040
+r1
+xCompileC
+x./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.o
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp:74:9: warning: unused variable 'cB' [-Wunused-variable]
+o        b2Vec2 cB = data.positions[m_indexB].c;
+o               ^
+o/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp:69:9: warning: unused variable 'cA' [-Wunused-variable]
+o        b2Vec2 cA = data.positions[m_indexA].c;
+o               ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cppd576974a93f3b741^1365234c93f3b741^-528"/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp:74:9: warning: unused variable 'cB' [-Wunused-variable]        b2Vec2 cB = data.positions[m_indexB].c;               ^/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp:69:9: warning: unused variable 'cA' [-Wunused-variable]        b2Vec2 cA = data.positions[m_indexA].c;               ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@20"Unused variable 'cB'-401838924#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@140"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp0000000000000000^73#8#73#8#2502#0#19"Unused Entity Issue--2@20"Unused variable 'cA'-401838924#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@140"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp0000000000000000^68#8#68#8#2328#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@149"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp0000000000000000^3529"CompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.o ../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" -include /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch -MMD -MT dependencies -MF "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.d" --serialize-diagnostics "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.dia" -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp" -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WeldJoint.o"36"4517F1F2-881B-4108-88EC-69DA8EB74348-
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WheelJoint.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2World.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2World.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/Objects-normal/i386/b2WorldCallbacks.o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/NOC_5_4_Polygons.app/Contents/Resources/CinderApp.icns
+s401838916.011506
+e401838916.152057
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/NOC_5_4_Polygons.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy ./build/Debug/NOC_5_4_Polygons.app/Contents/Resources/CinderApp.icns5800034493f3b741^bbed264493f3b741^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Resources/CinderApp.icns000000000080d041^537"CpResource ../resources/CinderApp.icns ./build/Debug/NOC_5_4_Polygons.app/Contents/Resources/CinderApp.icns    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/../resources/CinderApp.icns" "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Resources"36"C677FD62-B76D-4A70-A32C-40C4B5BDACD1-
+
+CLd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/MacOS/NOC_5_4_Polygons" normal i386
+r0
+
+CProcessInfoPlistFile "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Info.plist" Info.plist
+s401838915.900292
+e401838916.003500
+r1
+xProcessInfoPlistFile
+x/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist7fdbe74393f3b741^93e5004493f3b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/Info.plist0000000000000000^522"ProcessInfoPlistFile ./build/Debug/NOC_5_4_Polygons.app/Contents/Info.plist Info.plist    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app/Contents/Info.plist"36"8363A5AB-0002-4C9F-AFEF-370757C14CBC-
+
+CProcessPCH++ /Users/armin/Library/Developer/Xcode/DerivedData/NOC_5_4_Polygons-coaijsycwxeyrrcybwbqrtoahiti/Index/PrecompiledHeaders/NOC_5_4_Polygons_Prefix-dewioksbbnfuiedxnmufqaopondz_ast/NOC_5_4_Polygons_Prefix.pch.pth NOC_5_4_Polygons_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.pth NOC_5_4_Polygons_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401838916.160713
+e401838922.583552
+r1
+xProcessPCH++
+x/var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.pth
+xNOC_5_4_Polygons_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile NOC_5_4_Polygons_Prefix.pchbb44294493f3b741^8065954a93f3b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Developer/cinder_0.8.5_mac/projects/NOC/Chapter%205/NOC_5_4_Polygons/xcode/NOC_5_4_Polygons_Prefix.pch0000000000000000^3404"ProcessPCH++ /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.pth NOC_5_4_Polygons_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-generated-files.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-own-target-headers.hmap" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-all-target-headers.hmap" -iquote "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/NOC_5_4_Polygons-project-headers.hmap" -iquote../../../../../include -iquote../include "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug/include" -I../../../../../boost -I../blocks/Box2D/src "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources/i386" "-I/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/NOC_5_4_Polygons.build/Debug/NOC_5_4_Polygons.build/DerivedSources" "-F/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/build/Debug" --serialize-diagnostics /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.dia -c "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/NOC_5_4_Polygons_Prefix.pch" -o /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/t5/7m8hg9pd3l55qbnlqzvd48100000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/NOC_5_4_Polygons_Prefix-govjrlmbtblbnjfqmdnseiihflmd/NOC_5_4_Polygons_Prefix.pch.d36"BEE83565-17E5-4B21-80D1-8B4FCA6E2514-
+
+CTouch "/Developer/cinder_0.8.5_mac/projects/NOC/Chapter 5/NOC_5_4_Polygons/xcode/./build/Debug/NOC_5_4_Polygons.app"
+r0
+

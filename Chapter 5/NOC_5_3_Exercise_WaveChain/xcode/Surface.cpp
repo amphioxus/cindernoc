@@ -51,11 +51,23 @@ void Surface::update() {
 
 
 void Surface::draw() {    
-    ci::PolyLine<ci::Vec2f> pline;
-    for (ci::Vec2f v : mSurfaceVerts) {
-        pline.push_back( v );
-    }    
+//    ci::PolyLine<ci::Vec2f> pline;
+//    for (ci::Vec2f v : mSurfaceVerts) {
+//        pline.push_back( v );
+//    }
+//    ci::gl::color(0., .6, .5, .5);
+//    ci::gl::draw( pline );
+    
     ci::gl::color(0., .6, .5, .5);
-    ci::gl::draw( pline );
+    //    gl::begin( GL_POLYGON );
+    ci::gl::lineWidth(3.0);
+    ci::gl::begin( GL_LINE_STRIP );
+    for (ci::Vec2f v : mSurfaceVerts) {
+        ci::gl::vertex( v );
+    }
+    ci::gl::end();
+
+    
+    
 }
 
