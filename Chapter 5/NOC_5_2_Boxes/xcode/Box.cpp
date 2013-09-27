@@ -84,7 +84,7 @@ void Box::draw() {
     ci::gl::pushMatrices();
     
     ci::gl::translate( mLocation );
-    ci::gl::rotate( -1*ci::toDegrees( mAngle ) );
+    ci::gl::rotate( ci::toDegrees( mAngle ) );
     
     ci::gl::color(.6, .6, .6);
     ci::gl::drawSolidRect( mRect );
