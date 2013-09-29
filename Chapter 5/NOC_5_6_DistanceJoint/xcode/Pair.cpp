@@ -11,21 +11,18 @@
 
 Pair::Pair( ci::Vec2f location, b2World &world ) {
     
-//    p1 = new Particle ();
     mWorld = &world;
     mLocation = location;
-   
+    // set up two new particles that live in our b2World 
     mP1 = new Particle ( mLocation , 8.0, *mWorld );
-//    mP2 = new Particle ( mLocation + ci::Vec2f( ci::randFloat(-1,1), ci::randFloat(-1,1) ),
-//                         8.0,
-//                        *mWorld );
     mP2 = new Particle ( mLocation + ci::Vec2f( ci::randFloat(-10,10), ci::randFloat(-10,10) ),
                         8.0,
                         *mWorld );
+    // set up distance joint definition:
     b2DistanceJointDef distDef = b2DistanceJointDef();
     distDef.length = mLength;
-    distDef.bodyA = mP1->mBody;
-    distDef.bodyB = mP2->mBody;
+    distDef.bodyA = mP1->mBody; // get ref to b2Body instance from particle 1
+    distDef.bodyB = mP2->mBody; // get ref to b2Body instance from particle 2
     distDef.length = scale.toPhysics( mLength );
     
     // These properties affect how springy the joint is
@@ -34,7 +31,6 @@ Pair::Pair( ci::Vec2f location, b2World &world ) {
     
     // create the joint:
     mJoint = mWorld->CreateJoint( &distDef );
-//    mWorld->CreateJoint( &distDef );
 }
 
 

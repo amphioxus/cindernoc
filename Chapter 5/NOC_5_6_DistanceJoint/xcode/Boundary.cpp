@@ -36,8 +36,8 @@ void Boundary::makeBody() {
     // convert mRect location information into Box2D info
     float w = mRect.x2 - mRect.x1; // width
     float h = mRect.y2 - mRect.y1; // height
-    // center of rectangle:
     
+    // center of rectangle:
     b2Vec2 rcenter = b2Vec2 ( mRect.x1 + w/2, mRect.y1 + h/2 );
     
     // CREATE BODY:
@@ -75,7 +75,6 @@ void Boundary::draw() {
     ci::gl::drawSolidRect( rect );
     
     ci::gl::popMatrices();
-    
 }
 
 

@@ -35,6 +35,7 @@ void Lollipop::makeBody() {
                           scale.toPhysics( mCenter.y ) );
     mBody = mWorld->CreateBody( &bodyDef );
     
+    // CREATE CIRCULAR SHAPE
     b2CircleShape cShape = b2CircleShape();
     cShape.m_radius = scale.toPhysics( mRadius );
     cShape.m_p.Set( 0,
