@@ -12,9 +12,7 @@
 Spring::Spring( b2World &world ) {
     
     mMouseJoint = NULL; // set joint to null pointer at first
-    mWorld = &world;
-    
-    
+    mWorld = &world;    
 }
 
 
@@ -41,9 +39,7 @@ void Spring::bind( ci::Vec2f mouselocation, Box &box )
     mjDef.dampingRatio = 0.9;
     mjDef.maxForce = 1000.0 * box.mBody->GetMass();
     
-    mMouseJoint = (b2MouseJoint*) mWorld->CreateJoint( &mjDef );
-    
-    
+    mMouseJoint = (b2MouseJoint*) mWorld->CreateJoint( &mjDef );  
 }
 
 
