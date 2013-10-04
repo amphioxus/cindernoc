@@ -47,13 +47,14 @@ void NOC_6_01_SeekApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
-    
+    // draw the target zone:
     ci::gl::enableAlphaBlending();
     ci::gl::color(.8, .2, .2, .6);
     ci::gl::drawSolidCircle(mMousePos, 12.0);
     
     ci::gl::disableAlphaBlending();
     
+    // draw the vehicle:
     mVehicle->draw();
 }
 
