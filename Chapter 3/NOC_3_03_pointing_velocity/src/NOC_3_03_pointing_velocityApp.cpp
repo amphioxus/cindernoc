@@ -62,6 +62,7 @@ void NOC_3_03_pointing_velocityApp::update()
     mMover->checkEdges();
 }
 
+
 void NOC_3_03_pointing_velocityApp::draw()
 {
 	// clear out the window with black

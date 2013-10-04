@@ -29,6 +29,7 @@ Mover::Mover(float x, float y) {
     mColor = ci::ColorA(1.0f, 0.5f, 0.25f, 0.3f);
 }
 
+
 void Mover::update(  ci::Vec2f mousepos  ) {
     mHistory.push_back(mLocation); // remember position
     if (mHistory.size() > 200){
