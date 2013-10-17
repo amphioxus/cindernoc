@@ -1,3 +1,15 @@
+/**
+ The Nature of Code
+ Daniel Shiffman
+ 
+ Examples ported to Cinder ( http://libcinder.org )
+ 
+ Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+ 
+ Example 5-5: Multi-Shapes
+ 
+ */
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Rand.h"

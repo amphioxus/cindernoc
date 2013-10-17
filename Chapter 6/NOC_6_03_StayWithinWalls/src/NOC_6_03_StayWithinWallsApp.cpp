@@ -1,3 +1,15 @@
+/**
+ The Nature of Code
+ Daniel Shiffman
+ 
+ Examples ported to Cinder ( http://libcinder.org )
+ 
+ Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
+ 
+ Example 6.3: “Stay within walls” steering behavior
+ 
+ */
+
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Vehicle.h"
@@ -52,6 +64,7 @@ void NOC_6_03_StayWithinWallsApp::draw()
     ci::gl::drawStrokedRect( mRect );
     
     mVehicle->draw();
+    mVehicle->drawHistory();
 }
 
 CINDER_APP_NATIVE( NOC_6_03_StayWithinWallsApp, RendererGl )

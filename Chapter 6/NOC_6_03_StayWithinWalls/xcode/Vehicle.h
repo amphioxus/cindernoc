@@ -16,11 +16,13 @@ protected:
     ci::Vec2f mLocation;
     ci::Vec2f mVelocity;
     ci::Vec2f mAcceleration;
+    std::deque<ci::Vec2f> mHistoryTrail;
     float mR;
     float maxForce;
     float maxSpeed;
     float mMass = 1;
     float mTheta;
+    int mHistoryLength = 100;
     
 public:
     Vehicle( ci::Vec2f location );
@@ -30,4 +32,5 @@ public:
     void boundaries( ci::Rectf );
     void applyForce( ci::Vec2f force );
     void draw();
+    void drawHistory();
 };

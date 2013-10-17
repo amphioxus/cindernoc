@@ -13,8 +13,6 @@ Vehicle::Vehicle( ci::Vec2f location ) {
     mLocation = location;
     ci::Rand::randomize();
     mVelocity = ci::Vec2f( -2, 3);
-//    mVelocity *= 3;
-    
     mAcceleration = ci::Vec2f(0.,0.);
     mR = 6.;
     maxForce = .3;
@@ -23,6 +21,11 @@ Vehicle::Vehicle( ci::Vec2f location ) {
 
 
 void Vehicle::update() {
+    // remember location for history trail:
+    mHistoryTrail.push_back( mLocation );
+    if (mHistoryTrail.size() > mHistoryLength) {
+        mHistoryTrail.pop_front();
+    }
     // Update velocity
     mVelocity += mAcceleration;
     // Limit speed
@@ -111,4 +114,20 @@ void Vehicle::draw() {
     ci::gl::popMatrices();
     ci::gl::disableAlphaBlending();
 }
+
+void Vehicle::drawHistory() {
+    ci::gl::enableAlphaBlending();
+    
+    for (int i = 0; i < mHistoryTrail.size(); ++i) {
+        float alpha = ci::lmap<float>(i, 0, 255, 0.2, 1.0);
+        ci::gl::color(1., .2, .2, alpha);
+        ci::gl::drawSolidCircle(mHistoryTrail.at(i), 2.0);
+    }
+    
+    
+    
+    ci::gl::disableAlphaBlending();
+
+}
+
 
