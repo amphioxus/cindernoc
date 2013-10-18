@@ -6,7 +6,7 @@
  
  Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
  
- Example 6-7: Separation
+ Example 6-8: Separation and Seek
  
  */
 
@@ -16,56 +16,61 @@
 #include "cinder/Rand.h"
 #include "Vehicle.h"
 
-
 using namespace ci;
 using namespace ci::app;
 using namespace std;
 
-class NOC_6_07_SeparationApp : public AppNative {
+class NOC_6_08_SeparationAndSeekApp : public AppNative {
     
     std::vector< Vehicle * > mVehicles;
-    
+    ci::Vec2f mMousePos;
   public:
 	void setup();
 	void mouseDown( MouseEvent event );
+    void mouseMove( MouseEvent event );
     void mouseDrag( MouseEvent event );
 	void update();
 	void draw();
 };
 
-void NOC_6_07_SeparationApp::setup()
+void NOC_6_08_SeparationAndSeekApp::setup()
 {
     for (int i=0; i<100; i++) {
+        
         mVehicles.push_back( new Vehicle( ci::Vec2f( randInt(0, getWindowWidth() ),
                                                      randInt(0, getWindowHeight() ) ) ) );
     }
 }
 
-void NOC_6_07_SeparationApp::mouseDown( MouseEvent event )
+void NOC_6_08_SeparationAndSeekApp::mouseDown( MouseEvent event )
 {
 }
 
-void NOC_6_07_SeparationApp::mouseDrag( MouseEvent event ) {
+void NOC_6_08_SeparationAndSeekApp::mouseMove( MouseEvent event ) {
+    mMousePos = event.getPos();
+}
+
+void NOC_6_08_SeparationAndSeekApp::mouseDrag( MouseEvent event ) {
     mVehicles.push_back( new Vehicle ( event.getPos() ) );
 }
 
 
-void NOC_6_07_SeparationApp::update()
+void NOC_6_08_SeparationAndSeekApp::update()
 {
     for (auto v : mVehicles ) {
-        v->separate( mVehicles );
         v->update();
-        v->checkBorders();
+        v->applyBehaviors( mVehicles, mMousePos );
     }
+    
 }
 
-
-void NOC_6_07_SeparationApp::draw()
+void NOC_6_08_SeparationAndSeekApp::draw()
 {
-	gl::clear( Color( 1, 1, 1 ) );
+	// clear out the window with black
+	gl::clear( Color( 0, 0, 0 ) );
     for ( auto v : mVehicles ) {
         v->draw();
     }
 }
 
-CINDER_APP_NATIVE( NOC_6_07_SeparationApp, RendererGl )
+CINDER_APP_NATIVE( NOC_6_08_SeparationAndSeekApp, RendererGl )
