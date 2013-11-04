@@ -53,6 +53,7 @@ void FlowField::init() {
     }
 }
 
+
 ci::Vec2f FlowField::lookup( ci::Vec2f loc )
 {
     int row = ci::math<float>::clamp(loc.y/mResolution, 0, mRows-1);

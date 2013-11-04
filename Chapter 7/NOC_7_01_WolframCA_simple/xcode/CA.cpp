@@ -60,7 +60,7 @@ void CA::generate() {
         for (int i = 0; i < mHcells-1; i++) {
             mCells[mGeneration+1][i] = nextgen[i];
         }
-        std::cout << mGeneration << std::endl;
+//        std::cout << mGeneration << std::endl; // debug
         mGeneration++;
     }
 }
