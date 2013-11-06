@@ -35,6 +35,7 @@ void KochFractal::nextLevel() {
     mLines = iterate( mLines );
 //    mLines.swap(swapContainer); // quick hack... there must be a better way... Hey, I'm not sure I need it after all. Seems like I can just update mLines with the output from the iterate function... How this affects memory, I have no idea...
     mCount++; // keep track of iteration depth
+    std::cout << mLines.size() << std::endl;
 }
 
 

@@ -44,7 +44,7 @@ void NOC_8_05_KochApp::mouseDown( MouseEvent event )
     if (event.isRightDown() ) {
         koch->restart();
     }
-    else if ( koch->getCount() < 6) {
+    else if ( koch->getCount() < 5) {
         koch->nextLevel();
     }
 }

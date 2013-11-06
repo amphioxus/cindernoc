@@ -6,7 +6,7 @@
  
  Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
  
- Example 8-2: Simple Recursion
+ Example 8-2: Simple Recursion (Recursion twice)
  
  */
 
@@ -20,6 +20,7 @@ using namespace std;
 class NOC_8_02_RecursionApp : public AppNative {
   public:
     bool alreadyDrawn = false;
+    bool drawFour = false; // set this to true if you want circles to be drawn up and below as well
 	void setup();
     void prepareSettings( Settings * settings);
 	void mouseDown( MouseEvent event );	
@@ -65,11 +66,15 @@ void NOC_8_02_RecursionApp::drawCircle(float x, float y, float r) {
     ci::Vec2f loc = ci::Vec2f(x, y);
     gl::drawStrokedCircle(loc, r);
     
-    if (r > 2) {
+    if (r > 10) {
       // Now we draw two more circles, one to the left
       // and one to the right
         drawCircle(x + r/2, y, r/2);
         drawCircle(x - r/2, y, r/2);
+        if (drawFour) {
+            drawCircle(x, y + r/2, r/2);
+            drawCircle(x, y - r/2, r/2);
+        }
     }
 }
 
