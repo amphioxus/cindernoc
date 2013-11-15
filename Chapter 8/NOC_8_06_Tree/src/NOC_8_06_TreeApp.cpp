@@ -51,7 +51,6 @@ void NOC_8_06_TreeApp::update()
 }
 
 void NOC_8_06_TreeApp::drawBranch( float len ) {
-    
     gl::drawLine( Vec2f(0,0), Vec2f(0, -len));
     gl::translate(0, -len);
     len *= 0.66; // Each branch will be 2/3rds the size of the previous one
