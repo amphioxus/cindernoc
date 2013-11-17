@@ -26,7 +26,7 @@ public:
     ~Tree();
     
     void createTree();
-    void clearTree();
+    void resetTree();
     int getNoBranches();
     void branch();
     void draw();

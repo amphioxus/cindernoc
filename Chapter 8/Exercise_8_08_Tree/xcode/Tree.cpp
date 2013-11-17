@@ -41,7 +41,7 @@ void Tree::createTree() {
     }
 }
 
-void Tree::clearTree() {
+void Tree::resetTree() {
     // delete the branch objects:
     for (auto b : mBranches ) {
         delete b;
@@ -57,7 +57,9 @@ void Tree::clearTree() {
                                     startloc + Vec2f( 0, -app::getWindowHeight()/3),
                                     mCurrentLevel )
                         );
+    createTree();
 }
+
 
 void Tree::branch() {
     std::vector< Branch * > subB;
