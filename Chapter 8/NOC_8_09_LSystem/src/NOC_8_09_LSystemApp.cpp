@@ -63,7 +63,7 @@ void NOC_8_09_LSystemApp::setup()
 
     // set up Turtle graphing object:
     mTurtle = new Turtle( mLSystem->getSentence(), getWindowHeight()/4, toRadians(25.f) );
-    
+    std::cout << "Generation: " << mLSystem->getGeneration()+1 << std::endl;
     
 }
 
@@ -74,11 +74,17 @@ void NOC_8_09_LSystemApp::prepareSettings( Settings *settings ) {
 
 void NOC_8_09_LSystemApp::mouseDown( MouseEvent event )
 {
-    mLSystem->generate();
-//    std::cout << mLSystem->getSentence() << "\n\n" << std::endl; // debug: print out current sentence
-    mTurtle->setTodo( mLSystem->getSentence() );
-    mTurtle->changeLength(0.5);
-    mTurtle->calculatePaths();
+    int generation = mLSystem->getGeneration();
+
+    // limit generation depth:
+    if (generation < 5) {
+        mLSystem->generate();
+        //    std::cout << mLSystem->getSentence() << "\n\n" << std::endl; // debug: print out current sentence
+        mTurtle->setTodo( mLSystem->getSentence() );
+        mTurtle->changeLength(0.5);
+        mTurtle->calculatePaths();
+        std::cout << "Generation: " << mLSystem->getGeneration()+1 << std::endl;
+    }
 }
 
 void NOC_8_09_LSystemApp::update()
