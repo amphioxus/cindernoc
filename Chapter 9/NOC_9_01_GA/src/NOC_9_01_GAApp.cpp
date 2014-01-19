@@ -6,7 +6,7 @@
  
  Armin J Hinterwirth (trying to learn C++ by playing with Cinder)
  
- Example 9-1: Genetic Algorithm: Evolving Shakespeare
+ Example 9-1 (includes Exercise 9.6): Genetic Algorithm: Evolving Shakespeare
  
  */
 
@@ -54,7 +54,7 @@ class NOC_9_01_GAApp : public AppNative {
 void NOC_9_01_GAApp::setup()
 {
     std::string target = "To be or not to be.";
-    mPopulationMax = 300;
+    mPopulationMax = 500;
     // std::string can't easily convert from integers or float, therefore I'm turning
     // the numbers into strings via an ostringstream object:
     std::ostringstream ss;
@@ -75,6 +75,7 @@ void NOC_9_01_GAApp::setup()
 
 void NOC_9_01_GAApp::prepareSettings( Settings *settings ) {
     settings->setWindowSize(800, 400);
+    settings->setTitle("Genetic Algorithm Demo");
 //    settings->setWindowPos(100, 100);
     settings->setResizable( false );
 }

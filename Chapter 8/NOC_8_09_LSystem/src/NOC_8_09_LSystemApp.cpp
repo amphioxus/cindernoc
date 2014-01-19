@@ -93,7 +93,6 @@ void NOC_8_09_LSystemApp::update()
 
 void NOC_8_09_LSystemApp::draw()
 {
-	// clear out the window with black
 	gl::clear( Color( 1, 1, 1 ) );
     gl::color(0, 0, 0);
     mTurtle->draw();
